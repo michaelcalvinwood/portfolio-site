@@ -61,10 +61,10 @@ const Experience = () => {
             style: 'shadow-gray-400'
         },
         {
-            id: 1,
-            src: Html,
-            title: 'HTML',
-            style: 'shadow-orange-500'
+            id: 9,
+            src: Node,
+            title: 'Nodejs',
+            style: 'shadow-lime-500'
         },
         
     ]
