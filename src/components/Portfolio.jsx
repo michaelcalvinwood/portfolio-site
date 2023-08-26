@@ -6,33 +6,40 @@ import reactParallax from '../assets/portfolio/reactParallax.jpg';
 import reactSmooth from '../assets/portfolio/reactSmooth.jpg';
 import reactWeather from '../assets/portfolio/reactWeather.jpg';
 import usestate from '../assets/portfolio/usestate.jpg';
+import whisper from '../assets/portfolio/whisper.png';
 
 const Portfolio = () => {
 
     const portfolios = [
         {
             id: 1,
-            src: arrayDestruct
+            src: whisper,
+            ai: true
         },
         {
             id: 2,
-            src: reactParallax
+            src: reactParallax,
+            ai: false
         },
         {
             id: 3,
-            src: navbar
+            src: navbar,
+            ai: false
         },
         {
             id: 4,
-            src: reactSmooth
+            src: reactSmooth,
+            ai: false
         },
         {
             id: 5,
-            src: installNode
+            src: installNode,
+            ai: false
         },
         {
             id: 6,
-            src: reactWeather
+            src: reactWeather,
+            ai: false
         },
        
 
@@ -47,9 +54,12 @@ const Portfolio = () => {
             </div>
 
             <div className='grid grid-cols-2 md:grid-cols-3 gap-8 px-0 md:px-12'>
-                {portfolios.map(({id, src}) => {
+                {portfolios.map(({id, src, ai}) => {
                     return <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
-                        <img src={src} alt="" className='rounded-md duration-200 hover:scale-105'/>
+                        <div className='relative '>
+                            <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
+                            {ai && <div className='absolute hover:scale-105 cursor-pointer top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-blue-700 text-3xl border-2 border-blue-700 rounded p-3'>AI</div>}
+                        </div>
                         <div className='flex items-center justify-center'>
                             <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
                             <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
