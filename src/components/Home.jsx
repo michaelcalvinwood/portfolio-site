@@ -11,7 +11,7 @@ const Home = () => {
                     Full-Stack Developer Plus
                 </h2>
                 <p className='text-gray-500 py-4 pr-8'>
-                    I have over 30 years of experience building and designing software, hardware, servers, networks, and more. Currently, I love working on full-stack websites and apps using Nodejs, React, Redux, NextJs, PHP, WordPress, HTML, CSS, SASS, TailWind, and Chakra-UI. 
+                    I have over 30 years of experience building and designing software, hardware, servers, networks, and more. Currently, I love working on full-stack websites and apps using Nodejs, React, Redux, Socket.io, NextJs, Vite, PHP, WordPress, HTML, CSS, SASS, TailWind, and Chakra-UI. 
                 </p>
                 <div>
                     <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
