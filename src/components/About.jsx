@@ -12,10 +12,18 @@ const About = () => {
             </p>
             <br />
             <p className='text-xl'>
-                Due to my constant pursuit of knowledge, I'm now proficient in a variety of programming paradigms and languages &#8212; including the latest AI technologies. I'm equally comfortable with a variety of databases such as SQL, MongoDb, Redis, and even newer AI vector databases such as Qdrant. I'm also equally comfortable with frontend and backend development.</p> 
+                Due to my constant pursuit of knowledge:</p> 
+                
+            <ul className='list-disc list-inside'>
+                <li className='text-xl mx-1'>I'm proficient in a variety of programming paradigms and languages &#8212; including the latest AI technologies.</li>
+                <li className='text-xl '>I'm equally comfortable with a variety of databases such as SQL, MongoDb, Redis, and even newer AI vector databases such as Qdrant.</li>
+                <li className='text-xl '>I'm equally comfortable with frontend and backend development.</li>
+                <li className='text-xl '>I'm proficient in developing real-time collaboration apps using Socket.IO and Redis for horizontal scaling.</li>
+                <li className='text-xl '>I'm proficient in designing webapps that also run natively on iOS and Android from a single code base using the Ionic framework.</li>
+            </ul>   
             <br />
                 
-            <p className='text-xl'>My current employment involves a combination of Nodejs, React, Redux, PHP, Python, SQL, Redis, MongoDB, Qdrant, WordPress, Javascript, HTML, CSS, and Nextjs. I also manage all DevOps at PYMNTS as well.
+            <p className='text-xl'>My current employment involves a combination of Nodejs, React, Redux, PHP, Python, SQL, Redis, MongoDB, Qdrant, WordPress, Javascript, HTML, CSS, Ionic, and Nextjs. I also manage all DevOps as well.
             </p>
             <br />
             <p className='text-xl'>

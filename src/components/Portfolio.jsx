@@ -16,9 +16,25 @@ import vectraDB from '../assets/portfolio/vectraDB.png'
 import NLPKit from '../assets/portfolio/NLPKit.png'
 import machineLearning from '../assets/portfolio/machineLearning.png'
 
-const Portfolio = ({setUseModal}) => {
+const Portfolio = ({setUseModal, setModalDemoInfo}) => {
 
     const portfolios = [
+        {
+            id: 8,
+            src: instantChatbot,
+            name: "Instant ChatBot",
+            demo: {
+                description: "Instant ChatBot allows organizations to rapidly create chatbots based on company website content, PDFs, Word docs, and more.",
+                videos: [
+                    {
+                        id: 1,
+                        description: 'Proof of concept presented to PYMNTS. ChatBot knowledge loaded from a PYMNTS article and a PYMNTS study.',
+                        link: 'https://michaelcalvinwood.net/videos/chatbot-001.mp4'
+                    }
+                ]
+            },
+            code: null,
+        },
         {
             id: 1,
             src: aimixer,
@@ -30,13 +46,6 @@ const Portfolio = ({setUseModal}) => {
             id: 2,
             src: blender,
             name: "PYMNTS Blender",
-            demo: null,
-            code: null,
-        },
-        {
-            id: 3,
-            src: instaNews,
-            name: "PYMNTS InstaNews",
             demo: null,
             code: null,
         },
@@ -62,19 +71,20 @@ const Portfolio = ({setUseModal}) => {
             code: null,
         },
         {
+            id: 3,
+            src: instaNews,
+            name: "PYMNTS InstaNews",
+            demo: null,
+            code: null,
+        },
+        {
             id: 7,
             src: whisper,
             name: "PYMNTS Whisper",
             demo: null,
             code: null,
         },
-        {
-            id: 8,
-            src: instantChatbot,
-            name: "Instant ChatBot",
-            demo: null,
-            code: null,
-        },
+        
         {
             id: 9,
             src: instantBlog,
@@ -111,14 +121,15 @@ const Portfolio = ({setUseModal}) => {
                         </div>
                        
                         <div className='flex items-center justify-center'>
-                            <button className='w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105'
+                            <button className={demo ? 'w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105 text-white' : 'w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105 text-gray-600'}
                                 onClick={() => {
                                     if (!demo) setUseModal(true);
+                                    else setModalDemoInfo(demo)
                                 }}
                             >
                                 Demo
                             </button>
-                            <button className='w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105'
+                            <button className={code ? 'w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105 text-white' : 'w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105 text-gray-600'}
                              onClick={() => {
                                 if (!code) setUseModal(true);
                             }}>
