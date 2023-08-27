@@ -8,22 +8,29 @@ import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
 import ModalDemo from "./components/ModalDemo";
+import ModalCode from "./components/ModalCode";
 
 function App() {
   const [useModal, setUseModal] = useState(false);
-  const [modalDemoInfo, setModalDemoInfo] = useState(null)
+  const [modalDemoInfo, setModalDemoInfo] = useState(null);
+  const [modalCodeInfo, setModalCodeInfo] = useState([]);
+
+  console.log('modalCodeInfo', modalCodeInfo);
 
   return (
     <div>
-      <NavBar />
-      <Home />
-      <About />
-      <Portfolio setUseModal={setUseModal} setModalDemoInfo={setModalDemoInfo}/>
-      <Experience />
-      <Contact setUseModal={setUseModal}/>
-      <SocialLinks />
-      <Modal useModal={useModal} setUseModal={setUseModal} />
+      { <div>
+        <NavBar />
+        <Home />
+        <About />
+        <Portfolio setUseModal={setUseModal} setModalDemoInfo={setModalDemoInfo} modalCodeInfo={modalCodeInfo} setModalCodeInfo={setModalCodeInfo} />
+        <Experience />
+        <Contact setUseModal={setUseModal}/>
+        <SocialLinks />
+        <Modal useModal={useModal} setUseModal={setUseModal} />
+      </div>} 
       {modalDemoInfo && <ModalDemo modalDemoInfo={modalDemoInfo} setModalDemoInfo={setModalDemoInfo} />}
+      {modalCodeInfo.length > 0 && <ModalCode modalCodeInfo={modalCodeInfo} setModalCodeInfo={setModalCodeInfo} />}
     </div>
   );
 }

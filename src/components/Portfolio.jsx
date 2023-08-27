@@ -15,92 +15,125 @@ import instantBlog from '../assets/portfolio/instantBlog.png'
 import vectraDB from '../assets/portfolio/vectraDB.png'
 import NLPKit from '../assets/portfolio/NLPKit.png'
 import machineLearning from '../assets/portfolio/machineLearning.png'
+import { v4 as uuidv4 } from 'uuid';
 
-const Portfolio = ({setUseModal, setModalDemoInfo}) => {
+
+const Portfolio = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCodeInfo}) => {
 
     const portfolios = [
         {
-            id: 8,
+            id: '4889f0dcf608212e2d9b5de6cdad659c',
             src: instantChatbot,
             name: "Instant ChatBot",
             demo: {
                 description: "Instant ChatBot allows organizations to rapidly create chatbots based on company website content, PDFs, Word docs, and more.",
                 videos: [
                     {
-                        id: 1,
+                        id: '224e5e48843584ae14c4483391da30c5',
                         description: `Proof of concept presented to PYMNTS.\nChatBot knowledge was loaded from a PYMNTS article and a PYMNTS study.`,
                         link: 'https://michaelcalvinwood.net/videos/chatbot-001.mp4'
                     },
                     {
-                        id: 2,
+                        id: '8ce64b83e3c4e9317e5fcfd13e9991d1',
                         description: `Proof of concept presented to PYMNTS.\nChatBot knowledge was loaded with all PYMNTS' articles, studies, and trackers published in 2023.`,
                         link: 'https://michaelcalvinwood.net/videos/chatbot-002.mp4'
                     }
                 ]
             },
-            code: null,
+            code: [
+                {
+                    id: '9be48999f6edc4e67904dda8623ad8f6',
+                    description: 'React Client',
+                    link: 'https://github.com/michaelcalvinwood/instant-chatbot'
+                },
+                {
+                    id: 'b0a85aa6419404873a7a6cb20054156b',
+                    description: 'Website Home',
+                    link: 'https://github.com/michaelcalvinwood/chatbot-home'
+                },
+                {
+                    id: 'c23b50f2cae5d8ceca1932e4f6553b71',
+                    description: "Nodejs App Server",
+                    link: 'https://github.com/michaelcalvinwood/chatbot-app'
+                },
+                {
+                    id: 'f77cadca2450055557441d0ecce9aab1',
+                    description: "NodeJs Ingest Server",
+                    link: 'https://github.com/michaelcalvinwood/chatbot-ingest'
+                },
+                {
+                    id: '71f6417746074f2cfcd85bd2ec0a6eb7',
+                    description: "NodeJs PDF Service",
+                    link: 'https://github.com/michaelcalvinwood/chatbot-pdf'
+                },
+                {
+                    id: '5945d9094924fb31afee8d3cdf1c7c0e',
+                    description: 'NodeJs Admin Server',
+                    link: 'https://github.com/michaelcalvinwood/chatbot-admin'
+                },
+                {
+                    id: '39fd61d2ce581acb1bc809e03f8807d8',
+                    description: 'iframe widget',
+                    link: 'https://github.com/michaelcalvinwood/chatbot-iframe'
+                }
+            ],
         },
         {
-            id: 1,
+            id: '6b551075b646b3eb0719332ef6ea7d40',
             src: aimixer,
             name: "AI Mixer",
             demo: null,
             code: null,
         },
         {
-            id: 2,
+            id: 'fdf698f37cc9efbad3791a2b604ce48c',
             src: blender,
             name: "PYMNTS Blender",
             demo: null,
             code: null,
         },
         {
-            id: 4,
+            id: '1260b365778a7a6481e47cfc0cef7dc6',
             src: NLPKit,
             name: "Vectra DB",
             demo: null,
             code: null,
         },
         {
-            id: 5,
+            id: 'dbaf4c9f835496c4cc59379cc397e0a7',
             src: vectraDB,
             name: "NLP Kit",
             demo: null,
             code: null,
         },
         {
-            id: 6,
+            id: '30adc32401a80686c4d078b3227a7f28',
             src: machineLearning,
             name: "ML Matters",
             demo: null,
             code: null,
         },
         {
-            id: 3,
+            id: 'a312d597a52801c9ae230f21162ee8e8',
             src: instaNews,
             name: "PYMNTS InstaNews",
             demo: null,
             code: null,
         },
         {
-            id: 7,
+            id: '17a82864e5bad676b69370b4fa4d0d41',
             src: whisper,
             name: "PYMNTS Whisper",
             demo: null,
             code: null,
         },
-        
         {
-            id: 9,
+            id: 'f768f7a5239ea56643c8b94dc577951e',
             src: instantBlog,
             name: "Instant Blog",
             demo: null,
             code: null,
-        },
-
-
-        
-
+        }
     ]
 
   return (
@@ -137,6 +170,7 @@ const Portfolio = ({setUseModal, setModalDemoInfo}) => {
                             <button className={code ? 'w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105 text-white' : 'w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105 text-gray-600'}
                              onClick={() => {
                                 if (!code) setUseModal(true);
+                                else setModalCodeInfo(code);
                             }}>
                                 Code
                             </button>
