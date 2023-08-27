@@ -9,7 +9,7 @@ import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
 
 function App() {
-  const [useModal, setUseModal] = useState(true);
+  const [useModal, setUseModal] = useState(false);
 
   return (
     <div>
@@ -18,7 +18,7 @@ function App() {
       <About />
       <Portfolio setUseModal={setUseModal}/>
       <Experience />
-      <Contact />
+      <Contact setUseModal={setUseModal}/>
       <SocialLinks />
       <Modal useModal={useModal} setUseModal={setUseModal} />
     </div>
