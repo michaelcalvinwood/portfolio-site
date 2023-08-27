@@ -8,11 +8,14 @@ const About = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
             </div>
             <p className='text-xl mt-5 '>
-                My love for programming began with the very first computers — with my starting programming languages being Assembler, Pascal, Fortran, and BASIC — as well as Linux network programming in C. Over the decades, I passionately devoured new languages and frameworks; keeping my skills current through continuing education, including obtaining a full-stack Web Development diploma from Brainstation.
+                My love for programming began with the very first computers — with my starting programming languages being Assembler, Pascal, Fortran, and BASIC. Shortly thereafter I pursued Linux network programming in C. Over the decades, I passionately devoured new languages and frameworks; keeping my skills current through continuing education &#8212; including obtaining a full-stack Web Development diploma from Brainstation &#8212; and also passionately devouring the latest in AI, NLP and ML development. 
             </p>
             <br />
             <p className='text-xl'>
-                I'm now proficient in a variety of programming paradigms and languages, and I'm equally comfortable with a variety of databases such as SQL, MongoDb, Redis, and even newer AI vector databases such as Qdrant. I'm also equally comfortable with frontend and backend development. My current employment involves a combination of Nodejs, React, Redux, PHP, WordPress, HTML, CSS, and Nextjs.
+                Due to my constant pursuit of knowledge, I'm now proficient in a variety of programming paradigms and languages &#8212; including the latest AI technologies. I'm equally comfortable with a variety of databases such as SQL, MongoDb, Redis, and even newer AI vector databases such as Qdrant. I'm also equally comfortable with frontend and backend development.</p> 
+            <br />
+                
+            <p className='text-xl'>My current employment involves a combination of Nodejs, React, Redux, PHP, Python, SQL, Redis, MongoDB, Qdrant, WordPress, Javascript, HTML, CSS, and Nextjs. I also manage all DevOps at PYMNTS as well.
             </p>
             <br />
             <p className='text-xl'>

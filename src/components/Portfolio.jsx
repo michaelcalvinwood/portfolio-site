@@ -93,7 +93,7 @@ const Portfolio = ({setUseModal}) => {
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>AI Portfolio</p>
-                <p className='pt-6'>Some AI-Driven Web Apps and SaaS Services.</p> 
+                <p className='pt-6'>Example AI-Driven Web Apps and SaaS Services.</p> 
                 <p>For a full list, see my <a href="https://github.com/michaelcalvinwood" target="_blank" style={{textDecoration: 'underline'}}><span style={{fontWeight: 'bold', fontSize: '1.2rem'}}>150 project repositories</span></a>.</p>
                
             </div>
