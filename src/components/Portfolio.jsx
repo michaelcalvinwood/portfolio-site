@@ -16,53 +16,71 @@ import vectraDB from '../assets/portfolio/vectraDB.png'
 import NLPKit from '../assets/portfolio/NLPKit.png'
 import machineLearning from '../assets/portfolio/machineLearning.png'
 
-const Portfolio = () => {
+const Portfolio = ({setUseModal}) => {
 
     const portfolios = [
         {
             id: 1,
             src: aimixer,
-            name: "AI Mixer"
+            name: "AI Mixer",
+            demo: null,
+            code: null,
         },
         {
             id: 2,
             src: blender,
-            name: "PYMNTS Blender"
+            name: "PYMNTS Blender",
+            demo: null,
+            code: null,
         },
         {
             id: 3,
             src: instaNews,
-            name: "PYMNTS InstaNews"
+            name: "PYMNTS InstaNews",
+            demo: null,
+            code: null,
         },
         {
             id: 4,
             src: NLPKit,
-            name: "Vectra DB"
+            name: "Vectra DB",
+            demo: null,
+            code: null,
         },
         {
             id: 5,
             src: vectraDB,
-            name: "NLP Kit"
+            name: "NLP Kit",
+            demo: null,
+            code: null,
         },
         {
             id: 6,
             src: machineLearning,
-            name: "ML Matters"
+            name: "ML Matters",
+            demo: null,
+            code: null,
         },
         {
             id: 7,
             src: whisper,
-            name: "PYMNTS Whisper"
+            name: "PYMNTS Whisper",
+            demo: null,
+            code: null,
         },
         {
             id: 8,
             src: instantChatbot,
-            name: "Instant ChatBot"
+            name: "Instant ChatBot",
+            demo: null,
+            code: null,
         },
         {
             id: 9,
             src: instantBlog,
-            name: "Instant Blog"
+            name: "Instant Blog",
+            demo: null,
+            code: null,
         },
 
 
@@ -81,7 +99,7 @@ const Portfolio = () => {
             </div>
 
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-0 md:px-12'>
-                {portfolios.map(({id, src, name}) => {
+                {portfolios.map(({id, src, name, demo, code}) => {
                     return <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                          <div className='pb-1 text-center'>{name}</div>
                         <div className='relative '>
@@ -93,7 +111,13 @@ const Portfolio = () => {
                         </div>
                        
                         <div className='flex items-center justify-center'>
-                            <button className='w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105'>Demo</button>
+                            <button className='w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105'
+                                onClick={() => {
+                                    if (!demo) setUseModal(true);
+                                }}
+                            >
+                                Demo
+                            </button>
                             <button className='w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105'>Code</button>
                         </div>
                     </div>
