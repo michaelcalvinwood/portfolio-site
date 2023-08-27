@@ -7,62 +7,94 @@ import reactSmooth from '../assets/portfolio/reactSmooth.jpg';
 import reactWeather from '../assets/portfolio/reactWeather.jpg';
 import usestate from '../assets/portfolio/usestate.jpg';
 import whisper from '../assets/portfolio/whisper.png';
+import instaNews from '../assets/portfolio/instaNews.png'
+import blender from '../assets/portfolio/blender.png'
+import aimixer from '../assets/portfolio/aimixer.png'
+import instantChatbot from '../assets/portfolio/instantChatbot.png'
+import instantBlog from '../assets/portfolio/instantBlog.png'
+import vectraDB from '../assets/portfolio/vectraDB.png'
+import NLPKit from '../assets/portfolio/NLPKit.png'
+import machineLearning from '../assets/portfolio/machineLearning.png'
 
 const Portfolio = () => {
 
     const portfolios = [
         {
             id: 1,
-            src: whisper,
-            ai: true
+            src: aimixer,
+            name: "AI Mixer"
         },
         {
             id: 2,
-            src: reactParallax,
-            ai: false
+            src: blender,
+            name: "PYMNTS Blender"
         },
         {
             id: 3,
-            src: navbar,
-            ai: false
+            src: instaNews,
+            name: "PYMNTS InstaNews"
         },
         {
             id: 4,
-            src: reactSmooth,
-            ai: false
+            src: NLPKit,
+            name: "Vectra DB"
         },
         {
             id: 5,
-            src: installNode,
-            ai: false
+            src: vectraDB,
+            name: "NLP Kit"
         },
         {
             id: 6,
-            src: reactWeather,
-            ai: false
+            src: machineLearning,
+            name: "ML Matters"
         },
-       
+        {
+            id: 7,
+            src: whisper,
+            name: "PYMNTS Whisper"
+        },
+        {
+            id: 8,
+            src: instantChatbot,
+            name: "Instant ChatBot"
+        },
+        {
+            id: 9,
+            src: instantBlog,
+            name: "Instant Blog"
+        },
+
+
+        
 
     ]
 
   return (
-    <div name='portfolio' className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'>
+    <div name='AIportfolio' className='pt-20 md:pt-24 bg-gradient-to-b from-black to-gray-800 w-full text-white '>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
-                <p className='py-6'>Check out some of my work right here</p>
+                <p className='text-4xl font-bold inline border-b-4 border-gray-500'>AI Portfolio</p>
+                <p className='pt-6'>Some AI-Driven Web Apps and SaaS Services.</p> 
+                <p>For a full list, see my <a href="https://github.com/michaelcalvinwood" target="_blank" style={{textDecoration: 'underline'}}><span style={{fontWeight: 'bold', fontSize: '1.2rem'}}>150 project repositories</span></a>.</p>
+               
             </div>
 
-            <div className='grid grid-cols-2 md:grid-cols-3 gap-8 px-0 md:px-12'>
-                {portfolios.map(({id, src, ai}) => {
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-0 md:px-12'>
+                {portfolios.map(({id, src, name}) => {
                     return <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
+                         <div className='pb-1 text-center'>{name}</div>
                         <div className='relative '>
                             <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
-                            {ai && <div className='absolute hover:scale-105 cursor-pointer top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-blue-700 text-3xl border-2 border-blue-700 rounded p-3'>AI</div>}
+                            <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full flex justify-center'>
+                                {/* {ai && <div className='hover:scale-105 cursor-pointer text-blue-700 text-3xl border-2 border-blue-700 rounded p-3 inline-block'>AI</div>} */}
+                                {/* {mobile && <div className='hover:scale-105 cursor-pointer text-blue-700 text-3xl border-2 border-blue-700 rounded p-3 inline-block mx-2'>iOS</div>} */}
+                            </div>
                         </div>
+                       
                         <div className='flex items-center justify-center'>
-                            <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-                            <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+                            <button className='w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105'>Demo</button>
+                            <button className='w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105'>Code</button>
                         </div>
                     </div>
                 })}
