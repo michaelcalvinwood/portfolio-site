@@ -13,10 +13,11 @@ function ModalDemo({modalDemoInfo, setModalDemoInfo}) {
                     <p>{description}</p>
                     <p className='font-bold text-center mt-2 text-lg'>Links</p>
                     {videos.map(({description, link, id}) => {
+                        console.log('description', description)
                         return (
-                            <div key={id}>
-                                <div>{description}</div> 
-                                <a href={link} target="_blank" className='border border-white rounded p-1 block w-fit mx-auto my-1'>Demo</a>
+                            <div key={id} className='border border-white rounded p-4 my-3'>
+                                <div  dangerouslySetInnerHTML={{__html: description.replaceAll("\n", "<br />")}}></div> 
+                                <a href={link} target="_blank" className='border border-white rounded p-1 block w-fit mx-auto mt-2 mb-1'>Demo</a>
                             </div>
                         )
                     })}

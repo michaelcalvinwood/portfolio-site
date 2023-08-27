@@ -28,8 +28,13 @@ const Portfolio = ({setUseModal, setModalDemoInfo}) => {
                 videos: [
                     {
                         id: 1,
-                        description: 'Proof of concept presented to PYMNTS. ChatBot knowledge loaded from a PYMNTS article and a PYMNTS study.',
+                        description: `Proof of concept presented to PYMNTS.\nChatBot knowledge was loaded from a PYMNTS article and a PYMNTS study.`,
                         link: 'https://michaelcalvinwood.net/videos/chatbot-001.mp4'
+                    },
+                    {
+                        id: 2,
+                        description: `Proof of concept presented to PYMNTS.\nChatBot knowledge was loaded with all PYMNTS' articles, studies, and trackers published in 2023.`,
+                        link: 'https://michaelcalvinwood.net/videos/chatbot-002.mp4'
                     }
                 ]
             },
