@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 function Modal({useModal, setUseModal}) {
     
     useEffect(() => {
-        setTimeout(() => setUseModal(false), 3000)
+        setTimeout(() => setUseModal(false), 4000)
     })
   return (
     <div>

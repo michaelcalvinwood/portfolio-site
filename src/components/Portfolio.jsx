@@ -118,7 +118,12 @@ const Portfolio = ({setUseModal}) => {
                             >
                                 Demo
                             </button>
-                            <button className='w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105'>Code</button>
+                            <button className='w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105'
+                             onClick={() => {
+                                if (!code) setUseModal(true);
+                            }}>
+                                Code
+                            </button>
                         </div>
                     </div>
                 })}
