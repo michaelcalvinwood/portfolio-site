@@ -6,7 +6,7 @@ function ModalDemo({modalDemoInfo, setModalDemoInfo}) {
 
   return (
     <div id="modalDemo">
-         <div id="modal" className='text-red-600 flex justify-center items-center fixed top-0 left-0 w-screen h-screen'>
+         <div id="modal" className='text-red-600 flex justify-center items-center fixed top-20 sm:top-0 left-0 w-screen h-screen'>
             <div id="modalText" className='relative p-8 bg-gradient-to-b from-black to-gray-800 text-white rounded-lg border border-white'>
                 <div id="demoDescription">
                     <p className='font-bold text-center text-lg'>Description</p>
@@ -16,7 +16,7 @@ function ModalDemo({modalDemoInfo, setModalDemoInfo}) {
                         console.log('description', description)
                         return (
                             <div key={id} className='border border-white rounded p-4 my-3'>
-                                <div  dangerouslySetInnerHTML={{__html: description.replaceAll("\n", "<br />")}}></div> 
+                                <div className='hidden sm:block'  dangerouslySetInnerHTML={{__html: description.replaceAll("\n", "<br />")}}></div> 
                                 <a href={link} target="_blank" className='border border-white rounded p-1 block w-fit mx-auto mt-2 mb-1'>Demo</a>
                             </div>
                         )

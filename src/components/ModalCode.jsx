@@ -9,12 +9,12 @@ function ModalCode({modalCodeInfo, setModalCodeInfo}) {
             <div id="modalText" className='relative p-8 bg-gradient-to-b from-black to-gray-800 text-white rounded-lg border border-white'>
                 <div id="demoDescription">
                     <p className='font-bold text-center mt-2 text-lg'>Links</p>
-                    <div style={{width: '80vw'}}>
+                    <div style={{width: '80vw', maxWidth: '700px'}}>
 
                         {modalCodeInfo.map(({description, link, id}) => {
                             console.log('description', description)
                             return (
-                                <div key={id} className='w-full'>
+                                <div key={id} className=''>
                                     <div className='hidden md:flex text-left my-3 justify-between items-center'>
                                         <p className='me-4 hidden lg:block'>{description}:</p>
                                         <a href={link} target="_blank" className='text-decoration-underline p-1 block w-fit mt-2 mb-1'>{link}</a>

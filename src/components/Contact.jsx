@@ -1,4 +1,5 @@
 import React from 'react'
+import axios from 'axios';
 
 const Contact = ({setUseModal}) => {
   return (
@@ -11,14 +12,27 @@ const Contact = ({setUseModal}) => {
 
             <div className='flex justify-center items-center'>
                 <form action="" className='flex flex-col w-full md:w-1/2'>
-                    <input type="text" name="name" placeholder='Enter your name' className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'/>
-                    <input type="email" name="email" placeholder='Enter your email' className='my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'/>
-                    <textarea name="message" rows="10" className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' placeholder='Enter your message'></textarea>
+                    <input id="formName" type="text" name="name" placeholder='Enter your name' className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'/>
+                    <input id="formEmail" type="email" name="email" placeholder='Enter your email' className='my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'/>
+                    <textarea id="formMessage" name="message" rows="10" className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' placeholder='Enter your message'></textarea>
                     <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex-items-center rounded-md hover:scale-110 duration-300'
                     onClick={(e) => {
                         e.preventDefault();
                         e.stopPropagation();
-                        setUseModal(true);
+                        const name = document.getElementById('formName').value;
+                        const email = document.getElementById('formEmail').value;
+                        const message = document.getElementById('formMessage').value;
+                        const request = {
+                            url: `https://michaelcalvinwood.net:6200/message`,
+                            method: 'post',
+                            data: {
+                                name, email, message
+                            }
+                        }
+
+                        axios(request)
+                        .then(response => alert("Message Sent."))
+                        .catch(err => alert("ERROR: Could not send message"));
                     }}
                     >
                         Let's Talk
