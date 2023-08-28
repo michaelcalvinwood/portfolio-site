@@ -1,25 +1,16 @@
 import React from 'react';
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg';
-import installNode from '../assets/portfolio/installNode.jpg';
-import navbar from '../assets/portfolio/navbar.jpg';
-import reactParallax from '../assets/portfolio/reactParallax.jpg';
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg';
-import reactWeather from '../assets/portfolio/reactWeather.jpg';
-import usestate from '../assets/portfolio/usestate.jpg';
 import whisper from '../assets/portfolio/whisper.png';
-import instaNews from '../assets/portfolio/instaNews.png'
-import blender from '../assets/portfolio/blender.png'
-import aimixer from '../assets/portfolio/aimixer.png'
-import instantChatbot from '../assets/portfolio/instantChatbot.png'
-import instantBlog from '../assets/portfolio/instantBlog.png'
-import vectraDB from '../assets/portfolio/vectraDB.png'
-import NLPKit from '../assets/portfolio/NLPKit.png'
-import machineLearning from '../assets/portfolio/machineLearning.png'
-import { v4 as uuidv4 } from 'uuid';
-
+import instaNews from '../assets/portfolio/instaNews.png';
+import blender from '../assets/portfolio/blender.png';
+import aimixer from '../assets/portfolio/aimixer.png';
+import instantChatbot from '../assets/portfolio/instantChatbot.png';
+import instantBlog from '../assets/portfolio/instantBlog.png';
+import vectraDB from '../assets/portfolio/vectraDB.png';
+import NLPKit from '../assets/portfolio/NLPKit.png';
+import machineLearning from '../assets/portfolio/machineLearning.png';
+import contributorPage from '../assets/portfolio/contributorPage.png';
 
 const Portfolio = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCodeInfo}) => {
-
     const portfolios = [
         {
             id: '4889f0dcf608212e2d9b5de6cdad659c',
@@ -86,9 +77,10 @@ const Portfolio = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCodeIn
             code: null,
         },
         {
-            id: 'fdf698f37cc9efbad3791a2b604ce48c',
-            src: blender,
-            name: "PYMNTS Blender",
+            id: 'a312d597a52801c9ae230f21162ee8e8',
+            src: contributorPage,
+            name: "100% AI-Generated Pages",
+            msg: "1,500 Pages",
             demo: null,
             code: null,
         },
@@ -114,16 +106,16 @@ const Portfolio = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCodeIn
             code: null,
         },
         {
-            id: 'a312d597a52801c9ae230f21162ee8e8',
-            src: instaNews,
-            name: "PYMNTS InstaNews",
+            id: '17a82864e5bad676b69370b4fa4d0d41',
+            src: whisper,
+            name: "PYMNTS Whisper",
             demo: null,
             code: null,
         },
         {
-            id: '17a82864e5bad676b69370b4fa4d0d41',
-            src: whisper,
-            name: "PYMNTS Whisper",
+            id: 'fdf698f37cc9efbad3791a2b604ce48c',
+            src: blender,
+            name: "PYMNTS Blender",
             demo: null,
             code: null,
         },
@@ -147,13 +139,13 @@ const Portfolio = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCodeIn
             </div>
 
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-0 md:px-12'>
-                {portfolios.map(({id, src, name, demo, code}) => {
+                {portfolios.map(({id, src, name, demo, code, msg}) => {
                     return <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                          <div className='pb-1 text-center'>{name}</div>
                         <div className='relative '>
                             <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
                             <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full flex justify-center'>
-                                {/* {ai && <div className='hover:scale-105 cursor-pointer text-blue-700 text-3xl border-2 border-blue-700 rounded p-3 inline-block'>AI</div>} */}
+                                {msg && <div className='hover:scale-105 cursor-pointer text-blue-700 text-3xl border-2 border-blue-700 rounded p-3 inline-block'>{msg}</div>}
                                 {/* {mobile && <div className='hover:scale-105 cursor-pointer text-blue-700 text-3xl border-2 border-blue-700 rounded p-3 inline-block mx-2'>iOS</div>} */}
                             </div>
                         </div>
