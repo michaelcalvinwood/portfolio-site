@@ -8,7 +8,7 @@ import Nextjs from '../assets/nextjs.png';
 import Node from '../assets/node.png';
 import ReactPng from '../assets/react.png';
 import Tailwind from '../assets/tailwind.png';
-
+import Qdrant from '../assets/qdrant.png';
 
 const Experience = () => {
     const techs = [
@@ -50,8 +50,8 @@ const Experience = () => {
         },
         {
             id: 7,
-            src: Graphql,
-            title: 'GraphQL',
+            src: Qdrant,
+            title: 'Qdrant',
             style: 'shadow-pink-400'
         },
         {
