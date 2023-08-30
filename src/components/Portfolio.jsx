@@ -79,8 +79,8 @@ const Portfolio = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCodeIn
         {
             id: 'a312d597a52801c9ae230f21162ee8e8',
             src: contributorPage,
-            name: "100% AI-Generated Pages",
-            msg: "1,500 Pages",
+            name: "Fully Automated AI Research",
+            msg: "1,500 pages",
             demo: null,
             code: null,
         },
