@@ -79,7 +79,7 @@ const Portfolio = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCodeIn
         {
             id: 'a312d597a52801c9ae230f21162ee8e8',
             src: contributorPage,
-            name: "Fully Automated AI Research",
+            name: "100% AI-Driven Researcher/Writer",
             msg: "1,500 pages",
             demo: null,
             code: null,
@@ -134,7 +134,7 @@ const Portfolio = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCodeIn
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>AI Portfolio</p>
                 <p className='pt-6'>Example AI-Driven Web Apps and SaaS Services.</p> 
-                <p>For a full list, see my <a href="https://github.com/michaelcalvinwood" target="_blank" style={{textDecoration: 'underline'}}><span style={{fontWeight: 'bold', fontSize: '1.2rem'}}>150 project repositories</span></a>.</p>
+                <p>For a full list, see my <a href="https://github.com/michaelcalvinwood" target="_blank" style={{textDecoration: 'underline'}}><span style={{fontWeight: 'bold', fontSize: '1.2rem'}}>150 GitHub repositories</span></a>.</p>
                
             </div>
 

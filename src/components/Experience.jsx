@@ -74,7 +74,7 @@ const Experience = () => {
             <div>
                 <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Experience</p>
                 <p className='pt-6 '>A small sample of technologies that I have worked with.</p> 
-                <p>For a full list, see my <a href="https://github.com/michaelcalvinwood" target="_blank" style={{textDecoration: 'underline'}}><span style={{fontWeight: 'bold', fontSize: '1.2rem'}}>150 project repositories</span></a>.</p>
+                <p>For a full list, see my <a href="https://github.com/michaelcalvinwood" target="_blank" style={{textDecoration: 'underline'}}><span style={{fontWeight: 'bold', fontSize: '1.2rem'}}>150 GitHub repositories</span></a>.</p>
             </div>
 
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-0 sm:px-12'>
