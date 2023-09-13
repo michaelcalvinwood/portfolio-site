@@ -73,7 +73,17 @@ const Portfolio = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCodeIn
             id: '6b551075b646b3eb0719332ef6ea7d40',
             src: aimixer,
             name: "AI Mixer",
-            demo: null,
+            msg: "iOS / Android",
+            demo: {
+                description: "Mix Anything into Anything. (Webapp & native iOS & native Android) \n\nMix videos, audio, PDFs, Word documents, web pages, Google search results into anything you want.\n\nProduce news articles, blog posts, interactive outlines, product descriptions, web content, emails ... even poems, haikus, and more.\n\n",
+                videos: [
+                    {
+                        id: 'bf5767b27133797a197b6cd8d3d33a06',
+                        description: `Production Version used at PYMNTS.`,
+                        link: 'https://michaelcalvinwood.net/videos/AI-Mixer_Demo.mp4'
+                    }
+                ]
+            },
             code: null,
         },
         {
@@ -81,7 +91,16 @@ const Portfolio = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCodeIn
             src: contributorPage,
             name: "100% AI-Driven Researcher/Writer",
             msg: "1,500 pages",
-            demo: null,
+            demo: {
+                description: "100% AI Created Pages\n\nAI did <i>all</i> the research and writing for over 1,500 contributor pages at PYMNTS.",
+                videos: [
+                    {
+                        id: 'c13351eb2f243a18e22f21fee1722329',
+                        description: `Production Version used at PYMNTS.`,
+                        link: 'https://michaelcalvinwood.net/videos/Contributor-Pages.mp4'
+                    }
+                ]
+            },
             code: null,
         },
         {
