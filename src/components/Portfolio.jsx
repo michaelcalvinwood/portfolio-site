@@ -92,13 +92,19 @@ const Portfolio = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCodeIn
             name: "100% AI-Driven Researcher/Writer",
             msg: "1,500 pages",
             demo: {
-                description: "100% AI Created Pages\n\nAI did <i>all</i> the research and writing for over 1,500 contributor pages at PYMNTS.",
+                description: `100% AI Created Pages\n\nAI did <i>all</i> the research and writing for over 1,500 contributor pages at PYMNTS.`,
                 videos: [
                     {
                         id: 'c13351eb2f243a18e22f21fee1722329',
                         description: `Production Version used at PYMNTS.`,
                         link: 'https://michaelcalvinwood.net/videos/Contributor-Pages.mp4'
-                    }
+                    },
+                    {
+                        id: '631b7fb00cc42056919efe4ec138ffab',
+                        description: `Example Page`,
+                        link: 'https://www.pymnts.com/contributor/Amias_Gerety'
+                    },
+
                 ]
             },
             code: null,
@@ -128,7 +134,21 @@ const Portfolio = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCodeIn
             id: '17a82864e5bad676b69370b4fa4d0d41',
             src: whisper,
             name: "PYMNTS Whisper",
-            demo: null,
+            demo: {
+                description: "Whisper: Video -> News Article.\n\nAI generated news articles from video and audio interviews.\n\nPYMNTS uses Whisper in production to rapidly produce news articles after conducting interviews.",
+                videos: [
+                    {
+                        id: 'e414c10add38beb29388bc64582d3b94',
+                        description: `Production Version used at PYMNTS.`,
+                        link: 'https://michaelcalvinwood.net/videos/Whisper.mp4'
+                    },
+                    {
+                        id: 'f1f69989f235fc28dc1d5f65b0fafbed',
+                        description: `Example AI-Generated Page`,
+                        link: 'https://www.pymnts.com/digital-payments/2023/how-iphone-generation-is-killing-corporate-check/'
+                    },
+                ]
+            },
             code: null,
         },
         {
