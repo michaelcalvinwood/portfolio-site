@@ -144,6 +144,16 @@ const Portfolio = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCodeIn
                             description: 'Find Recent Photo Based on Affiliation',
                             endpoint: '/photo'
                         },
+                        {
+                            id: 'c8571081529d5f88f8132270a84f6942',
+                            description: 'AI Research & Write Bio',
+                            endpoint: '/bio'
+                        },
+                        {
+                            id: 'c55d98f0a254bc05a5b052eac512110f',
+                            description: 'AI Research & Write Contribution',
+                            endpoint: '/contribution'
+                        },
                     ]
                 }
             ],
