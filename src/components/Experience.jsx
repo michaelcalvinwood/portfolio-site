@@ -9,6 +9,7 @@ import Node from '../assets/node.png';
 import ReactPng from '../assets/react.png';
 import Tailwind from '../assets/tailwind.png';
 import Qdrant from '../assets/qdrant.png';
+import Tensorflow from '../assets/tensorflow.png'
 
 const Experience = () => {
     const techs = [
@@ -56,15 +57,21 @@ const Experience = () => {
         },
         {
             id: 8,
-            src: Github,
-            title: 'GitHub',
-            style: 'shadow-gray-400'
+            src: Tensorflow,
+            title: 'Tensorflow',
+            style: 'shadow-orange-400'
         },
         {
             id: 9,
             src: Node,
             title: 'Nodejs',
             style: 'shadow-lime-500'
+        },
+        {
+            id: 10,
+            src: Github,
+            title: 'GitHub',
+            style: 'shadow-gray-400'
         },
         
     ]
