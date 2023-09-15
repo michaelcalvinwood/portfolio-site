@@ -9,7 +9,8 @@ import Node from '../assets/node.png';
 import ReactPng from '../assets/react.png';
 import Tailwind from '../assets/tailwind.png';
 import Qdrant from '../assets/qdrant.png';
-import Tensorflow from '../assets/tensorflow.png'
+import Tensorflow from '../assets/tensorflow.png';
+import OpenAI from '../assets/openai.png';
 
 const Experience = () => {
     const techs = [
@@ -63,12 +64,18 @@ const Experience = () => {
         },
         {
             id: 9,
+            src: OpenAI,
+            title: 'OpenAI API',
+            style: 'shadow-green-500'
+        },
+        {
+            id: 10,
             src: Node,
             title: 'Nodejs',
             style: 'shadow-lime-500'
         },
         {
-            id: 10,
+            id: 11,
             src: Github,
             title: 'GitHub',
             style: 'shadow-gray-400'
