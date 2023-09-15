@@ -84,7 +84,28 @@ const Portfolio = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCodeIn
                     }
                 ]
             },
-            code: null,
+            code: [
+                {
+                    id: '49be78459f47332772836708c978d758',
+                    description: 'React Client',
+                    link: 'https://github.com/michaelcalvinwood/aimixer-client'
+                },
+                {
+                    id: '297cd82290e9c5a0fa14e89dea1934af',
+                    description: 'Asset Processing Service',
+                    link: 'https://github.com/michaelcalvinwood/aimixer-assets'
+                },
+                {
+                    id: 'd3ade804d84a84ad397c3f8448300298',
+                    description: "AI API Service",
+                    link: 'https://github.com/michaelcalvinwood/aimixer-api'
+                },
+                {
+                    id: '2b165a9ad758b3249c0a741abffc4962',
+                    description: "Account Management Service",
+                    link: 'https://github.com/michaelcalvinwood/aimixer-account'
+                }
+            ],
         },
         {
             id: 'a312d597a52801c9ae230f21162ee8e8',
@@ -155,7 +176,16 @@ const Portfolio = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCodeIn
             id: 'fdf698f37cc9efbad3791a2b604ce48c',
             src: blender,
             name: "PYMNTS Blender",
-            demo: null,
+            demo: {
+                description: "PYMNTS' specific implementation of AI Mixer.\n\nUsed by PYMNTS to rapidly mix PYMNTS' data with third-party sources.\n\nPYMNTS data can be AI-extracted from the website and/or be input via PDFs, spreadsheets, and more.",
+                videos: [
+                    {
+                        id: '2e54cf050578490de9e8e31635514bb4',
+                        description: `Production Version used at PYMNTS.`,
+                        link: 'https://michaelcalvinwood.net/videos/Blender.mp4'
+                    }
+                ]
+            },
             code: null,
         },
         {
