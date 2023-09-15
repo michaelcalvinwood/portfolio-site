@@ -11,7 +11,7 @@ function ModalCode({modalCodeInfo, setModalCodeInfo}) {
                     <p className='font-bold text-center mt-2 text-lg'>Links</p>
                     <div style={{width: '80vw', maxWidth: '700px'}}>
 
-                        {modalCodeInfo.map(({description, link, id}) => {
+                        {modalCodeInfo.map(({description, link, id, endpoints}) => {
                             console.log('description', description)
                             return (
                                 <div key={id} className=''>
@@ -22,6 +22,21 @@ function ModalCode({modalCodeInfo, setModalCodeInfo}) {
                                     <div className='text-white my-2 md:hidden'>
                                         <a href={link} target="_blank" className='underline text-white'>{description}</a>
                                     </div>
+                                    {endpoints && endpoints.length && <p className='font-bold text-center mt-2 text-lg'>Endpoints</p>}
+                                    {endpoints && endpoints.length && endpoints.map(({id, description, endpoint}) => {
+                                        return(
+                                            <div key={id} className=''>
+                                                <div className='hidden md:flex text-left my-3 justify-between items-center'>
+                                                    <p className='me-4 hidden lg:block'>{description}</p>
+                                                    <p className='me-4 hidden lg:block'>{endpoint}</p>
+                                                
+                                                </div>
+                                            <div className='text-white my-2 md:hidden'>
+                                                {description}: {endpoint}
+                                            </div>
+                                            </div>
+                                        )
+                                    })}
                                 </div>
                             )
                         })}

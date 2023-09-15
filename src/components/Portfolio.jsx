@@ -128,7 +128,25 @@ const Portfolio = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCodeIn
 
                 ]
             },
-            code: null,
+            code: [
+                {
+                    id: '0513405142b906c2b21db0490994fc0d',
+                    description: 'AI REST API Service',
+                    link: 'https://github.com/michaelcalvinwood/query',
+                    endpoints: [
+                        {
+                            id: 'de3a17396491af9bfbcdc341b961ad6f',
+                            description: 'AI Extract Organization and Role',
+                            endpoint: '/affiliation'
+                        },
+                        {
+                            id: 'dca380e7dc1e81026dc21e158143e555',
+                            description: 'Find Recent Photo Based on Affiliation',
+                            endpoint: '/photo'
+                        },
+                    ]
+                }
+            ],
         },
         {
             id: '1260b365778a7a6481e47cfc0cef7dc6',
