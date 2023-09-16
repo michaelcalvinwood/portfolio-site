@@ -73,7 +73,7 @@ const Portfolio = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCodeIn
             id: '6b551075b646b3eb0719332ef6ea7d40',
             src: aimixer,
             name: "AI Mixer",
-            msg: "iOS / Android",
+            msg: "Web & Mobile",
             demo: {
                 description: "Mix Anything into Anything. (Webapp & native iOS & native Android) \n\nMix videos, audio, PDFs, Word documents, web pages, Google search results into anything you want.\n\nProduce news articles, blog posts, interactive outlines, product descriptions, web content, emails ... even poems, haikus, and more.\n\n",
                 videos: [
@@ -92,17 +92,17 @@ const Portfolio = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCodeIn
                 },
                 {
                     id: '297cd82290e9c5a0fa14e89dea1934af',
-                    description: 'Asset Processing Service',
+                    description: 'Nodejs: Asset Processing Service',
                     link: 'https://github.com/michaelcalvinwood/aimixer-assets'
                 },
                 {
                     id: 'd3ade804d84a84ad397c3f8448300298',
-                    description: "AI API Service",
+                    description: "Nodejs: AI API Service",
                     link: 'https://github.com/michaelcalvinwood/aimixer-api'
                 },
                 {
                     id: '2b165a9ad758b3249c0a741abffc4962',
-                    description: "Account Management Service",
+                    description: "Nodejs: Account Management Service",
                     link: 'https://github.com/michaelcalvinwood/aimixer-account'
                 }
             ],
@@ -198,7 +198,18 @@ const Portfolio = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCodeIn
                     },
                 ]
             },
-            code: null,
+            code: [
+                {
+                    id: 'b1a45d216d89d05763e6454c62db3d40',
+                    description: 'React Client',
+                    link: 'https://github.com/michaelcalvinwood/pymnts-whisper-client'
+                },
+                {
+                    id: 'b1a45d216d89d05763e6454c62db3d40',
+                    description: 'Nodejs Server',
+                    link: 'https://github.com/michaelcalvinwood/pymnts-whisper'
+                }
+            ],
         },
         {
             id: 'fdf698f37cc9efbad3791a2b604ce48c',
