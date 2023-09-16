@@ -15,9 +15,31 @@ import Vite from '../assets/vite.png';
 import Ionic from '../assets/ionic.png';
 import Redux from '../assets/Redux.png';
 import Wordpress from '../assets/Wordpress.png'
+import Scikit from '../assets/Scikit.png';
+import PHP from '../assets/PHP.png';
+import Python from '../assets/python.png'
+
+/*
+ * To add:
+ * 
+ * MYSQL
+ * MongoDB
+ * Redis
+ * 
+ * C (already have logo)
+ * Chakra UI
+ * Boostrap 5
+ * 
+ */
 
 const Experience = () => {
     const techs = [
+        {
+            id: 18,
+            src: Python,
+            title: 'Python',
+            style: 'shadow-yellow-400'
+        },
         {
             id: 1,
             src: Html,
@@ -43,6 +65,12 @@ const Experience = () => {
             style: 'shadow-blue-600'
         },
         {
+            id: 14,
+            src: Redux,
+            title: 'Redux',
+            style: 'shadow-purple-600'
+        },
+        {
             id: 5,
             src: Nextjs,
             title: 'Next JS',
@@ -55,10 +83,22 @@ const Experience = () => {
             style: 'shadow-purple-400'
         },
         {
-            id: 7,
-            src: Qdrant,
-            title: 'Qdrant',
-            style: 'shadow-pink-400'
+            id: 10,
+            src: Node,
+            title: 'Nodejs',
+            style: 'shadow-lime-500'
+        },
+        {
+            id: 17,
+            src: PHP,
+            title: 'PHP',
+            style: 'shadow-blue-900'
+        },
+        {
+            id: 15,
+            src: Wordpress,
+            title: 'Wordpress',
+            style: 'shadow-blue-300'
         },
         {
             id: 8,
@@ -73,10 +113,22 @@ const Experience = () => {
             style: 'shadow-green-500'
         },
         {
-            id: 10,
-            src: Node,
-            title: 'Nodejs',
-            style: 'shadow-lime-500'
+            id: 16,
+            src: Scikit,
+            title: 'Scikit Learn',
+            style: 'shadow-orange-300'
+        },
+        {
+            id: 7,
+            src: Qdrant,
+            title: 'Qdrant',
+            style: 'shadow-pink-400'
+        },
+        {
+            id: 13,
+            src: Ionic,
+            title: 'Ionic Framework',
+            style: 'shadow-sky-600'
         },
         {
             id: 11,
@@ -90,24 +142,7 @@ const Experience = () => {
             title: 'Tailwind',
             style: 'shadow-sky-400'
         },
-        {
-            id: 13,
-            src: Ionic,
-            title: 'Ionic Framework',
-            style: 'shadow-sky-600'
-        },
-        {
-            id: 14,
-            src: Redux,
-            title: 'Redux',
-            style: 'shadow-purple-600'
-        },
-        {
-            id: 15,
-            src: Wordpress,
-            title: 'Wordpress',
-            style: 'shadow-blue-300'
-        },
+     
     ]
   return (
     <div name='experience' className='pt-20 md:pt-24 bg-gradient-to-b from-black to-gray-800 w-full text-white '>
