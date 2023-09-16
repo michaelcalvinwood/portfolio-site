@@ -11,6 +11,7 @@ import Tailwind from '../assets/tailwind.png';
 import Qdrant from '../assets/qdrant.png';
 import Tensorflow from '../assets/tensorflow.png';
 import OpenAI from '../assets/openai.png';
+import Vite from '../assets/vite.png';
 
 const Experience = () => {
     const techs = [
@@ -46,9 +47,9 @@ const Experience = () => {
         },
         {
             id: 6,
-            src: Tailwind,
-            title: 'Tailwind',
-            style: 'shadow-sky-400'
+            src: Vite,
+            title: 'Vite',
+            style: 'shadow-purple-400'
         },
         {
             id: 7,
@@ -79,6 +80,12 @@ const Experience = () => {
             src: Github,
             title: 'GitHub',
             style: 'shadow-gray-400'
+        },
+        {
+            id: 12,
+            src: Tailwind,
+            title: 'Tailwind',
+            style: 'shadow-sky-400'
         },
         
     ]
