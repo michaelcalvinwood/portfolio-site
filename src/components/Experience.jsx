@@ -12,6 +12,8 @@ import Qdrant from '../assets/qdrant.png';
 import Tensorflow from '../assets/tensorflow.png';
 import OpenAI from '../assets/openai.png';
 import Vite from '../assets/vite.png';
+import Ionic from '../assets/ionic.png';
+import Redux from '../assets/Redux.png'
 
 const Experience = () => {
     const techs = [
@@ -87,7 +89,18 @@ const Experience = () => {
             title: 'Tailwind',
             style: 'shadow-sky-400'
         },
-        
+        {
+            id: 13,
+            src: Ionic,
+            title: 'Ionic Framework',
+            style: 'shadow-sky-600'
+        },
+        {
+            id: 14,
+            src: Redux,
+            title: 'Redux',
+            style: 'shadow-purple-600'
+        },
     ]
   return (
     <div name='experience' className='pt-20 md:pt-24 bg-gradient-to-b from-black to-gray-800 w-full text-white '>
