@@ -13,7 +13,8 @@ import Tensorflow from '../assets/tensorflow.png';
 import OpenAI from '../assets/openai.png';
 import Vite from '../assets/vite.png';
 import Ionic from '../assets/ionic.png';
-import Redux from '../assets/Redux.png'
+import Redux from '../assets/Redux.png';
+import Wordpress from '../assets/Wordpress.png'
 
 const Experience = () => {
     const techs = [
@@ -100,6 +101,12 @@ const Experience = () => {
             src: Redux,
             title: 'Redux',
             style: 'shadow-purple-600'
+        },
+        {
+            id: 15,
+            src: Wordpress,
+            title: 'Wordpress',
+            style: 'shadow-blue-300'
         },
     ]
   return (
