@@ -225,7 +225,18 @@ const Portfolio = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCodeIn
                     }
                 ]
             },
-            code: null,
+            code: [
+                {
+                    id: 'a40593e11083f01f8d5e85b8f0775518',
+                    description: 'React Client',
+                    link: 'https://github.com/michaelcalvinwood/blender-client'
+                },
+                {
+                    id: '7394f4bdb57608be4163f419ccd18816',
+                    description: 'Nodejs Server',
+                    link: 'https://github.com/michaelcalvinwood/blender-server'
+                }
+            ],
         },
         {
             id: 'f768f7a5239ea56643c8b94dc577951e',

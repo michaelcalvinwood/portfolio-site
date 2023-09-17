@@ -20,7 +20,7 @@ import PHP from '../assets/PHP.png';
 import Python from '../assets/python.png'
 
 /*
- * To add:
+ * To add: Tailwind Colors: https://tailwindcolor.com/
  * 
  * MYSQL
  * MongoDB
@@ -30,6 +30,7 @@ import Python from '../assets/python.png'
  * Chakra UI
  * Boostrap 5
  * 
+ * Linux
  */
 
 const Experience = () => {
@@ -38,7 +39,7 @@ const Experience = () => {
             id: 18,
             src: Python,
             title: 'Python',
-            style: 'shadow-yellow-400'
+            style: 'shadow-blue-700'
         },
         {
             id: 1,
