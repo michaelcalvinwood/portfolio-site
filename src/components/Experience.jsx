@@ -18,6 +18,7 @@ import Wordpress from '../assets/Wordpress.png'
 import Scikit from '../assets/Scikit.png';
 import PHP from '../assets/PHP.png';
 import Python from '../assets/python.png'
+import { Link } from 'react-scroll';
 
 /*
  * To add: Tailwind Colors: https://tailwindcolor.com/
@@ -150,8 +151,12 @@ const Experience = () => {
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div>
                 <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Experience</p>
-                <p className='pt-6 '>A small sample of technologies that I have worked with.</p> 
-                <p>For a full list, see my <a href="https://github.com/michaelcalvinwood" target="_blank" style={{textDecoration: 'underline'}}><span style={{fontWeight: 'bold', fontSize: '1.2rem'}}>150 GitHub repositories</span></a>.</p>
+                 
+                <p className='pt-6'>For a full list, see:</p> 
+                <ul className='px-4'>
+                    <li><Link to='inventions' smooth={true} duration={500} style={{textDecoration: 'underline', cursor: 'pointer'}}>Inventions</Link></li>
+                    <li><a href="https://github.com/michaelcalvinwood" target="_blank" style={{textDecoration: 'underline'}}>150 GitHub repositories</a>.</li>
+                </ul>
             </div>
 
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-0 sm:px-12'>

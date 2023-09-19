@@ -9,6 +9,7 @@ import vectraDB from '../assets/portfolio/vectraDB.png';
 import NLPKit from '../assets/portfolio/NLPKit.png';
 import machineLearning from '../assets/portfolio/machineLearning.png';
 import contributorPage from '../assets/portfolio/contributorPage.png';
+import { Link } from 'react-scroll';
 
 const Portfolio = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCodeInfo}) => {
     const portfolios = [
@@ -253,8 +254,11 @@ const Portfolio = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCodeIn
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>AI Portfolio</p>
                 <p className='pt-6'>Example AI-Driven Web Apps and SaaS Services.</p> 
-                <p>For a full list, see my <a href="https://github.com/michaelcalvinwood" target="_blank" style={{textDecoration: 'underline'}}><span style={{fontWeight: 'bold', fontSize: '1.2rem'}}>150 GitHub repositories</span></a>.</p>
-               
+                <p className='pt-2'>For a full list, see:</p> 
+                <ul className='px-4'>
+                    <li><Link to='inventions' smooth={true} duration={500} style={{textDecoration: 'underline', cursor: 'pointer'}}>Inventions</Link></li>
+                    <li><a href="https://github.com/michaelcalvinwood" target="_blank" style={{textDecoration: 'underline'}}>150 GitHub repositories</a>.</li>
+                </ul>
             </div>
 
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-0 md:px-12'>
