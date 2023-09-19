@@ -9,6 +9,7 @@ import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
 import ModalDemo from "./components/ModalDemo";
 import ModalCode from "./components/ModalCode";
+import Inventions from "./components/Inventions";
 
 function App() {
   const [useModal, setUseModal] = useState(false);
@@ -24,6 +25,7 @@ function App() {
         <Home />
         <About />
         <Portfolio setUseModal={setUseModal} setModalDemoInfo={setModalDemoInfo} modalCodeInfo={modalCodeInfo} setModalCodeInfo={setModalCodeInfo} />
+        <Inventions />
         <Experience />
         <Contact setUseModal={setUseModal}/>
         <SocialLinks />
