@@ -53,14 +53,14 @@ function Inventions() {
               <div className='text-center mb-2'>Patents Granted</div>
               <p className='text-xl'>I have been granted the following cybersecurity patents. Click to view.:</p>
               <ul className='px-4 mt-2 flex flex-wrap justify-space-between'>
-              <a href="https://michaelcalvinwood.net/docs/US9467324.pdf" target='_blank'><li className='mt-2 p-2 border border-white rounded w-auto inline-block ml-2'>US9467324</li></a> 
-              <a href="https://michaelcalvinwood.net/docs/US9742734.pdf" target='_blank'><li className='mt-2 p-2 border border-white rounded w-auto inline-block ml-2'>US9742734</li></a> 
-              <a href="https://michaelcalvinwood.net/docs/US9882877.pdf" target='_blank'><li className='mt-2 p-2 border border-white rounded w-auto inline-block ml-2'>US9882877</li></a>
-              <a href="https://michaelcalvinwood.net/docs/US9992233.pdf" target='_blank'><li className='mt-2 p-2 border border-white rounded w-auto inline-block ml-2'>US9992233</li></a>
-              <a href="https://michaelcalvinwood.net/docs/US10320746.pdf" target='_blank'><li className='mt-2 p-2 border border-white rounded w-auto inline-block ml-2'>US10320746</li></a>
-              <a href="https://michaelcalvinwood.net/docs/US10348682.pdf" target='_blank'><li className='mt-2 p-2 border border-white rounded w-auto inline-block ml-2'>US10348682</li></a>
-              <a href="https://michaelcalvinwood.net/docs/US10574628.pdf" target='_blank'><li className='mt-2 p-2 border border-white rounded w-auto inline-block ml-2'>US10574628</li></a>
-              <a href="https://michaelcalvinwood.net/docs/US11044228.pdf" target='_blank'><li className='mt-2 p-2 border border-white rounded w-auto inline-block ml-2'>US11044228</li></a>
+              <a href="https://michaelcalvinwood.net/docs/US9467324.pdf" target='_blank'><li className='mt-2 p-2 border border-white rounded w-auto inline-block ml-3 transform transition duration-300 hover:scale-110'>US9467324</li></a> 
+              <a href="https://michaelcalvinwood.net/docs/US9742734.pdf" target='_blank'><li className='mt-2 p-2 border border-white rounded w-auto inline-block ml-3 transform transition duration-300 hover:scale-110'>US9742734</li></a> 
+              <a href="https://michaelcalvinwood.net/docs/US9882877.pdf" target='_blank'><li className='mt-2 p-2 border border-white rounded w-auto inline-block ml-3 transform transition duration-300 hover:scale-110'>US9882877</li></a>
+              <a href="https://michaelcalvinwood.net/docs/US9992233.pdf" target='_blank'><li className='mt-2 p-2 border border-white rounded w-auto inline-block ml-3 transform transition duration-300 hover:scale-110'>US9992233</li></a>
+              <a href="https://michaelcalvinwood.net/docs/US10320746.pdf" target='_blank'><li className='mt-2 p-2 border border-white rounded w-auto inline-block ml-3 transform transition duration-300 hover:scale-110'>US10320746</li></a>
+              <a href="https://michaelcalvinwood.net/docs/US10348682.pdf" target='_blank'><li className='mt-2 p-2 border border-white rounded w-auto inline-block ml-3 transform transition duration-300 hover:scale-110'>US10348682</li></a>
+              <a href="https://michaelcalvinwood.net/docs/US10574628.pdf" target='_blank'><li className='mt-2 p-2 border border-white rounded w-auto inline-block ml-3 transform transition duration-300 hover:scale-110'>US10574628</li></a>
+              <a href="https://michaelcalvinwood.net/docs/US11044228.pdf" target='_blank'><li className='mt-2 p-2 border border-white rounded w-auto inline-block ml-3 transform transition duration-300 hover:scale-110'>US11044228</li></a>
 
               </ul>
             </div>
