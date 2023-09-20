@@ -1,9 +1,27 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import HeroImage from '../assets/webdev-michael-wood.jpeg';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
-import { Link }  from 'react-scroll';
+import * as Scroll from 'react-scroll';
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
+const scrollToHash = () => {
+    const top = window.pageYOffset || document.documentElement.scrollTop;
+    if (top !== 0) return;
+    const location = window.location.href;
+    const hashIndex = location.indexOf('#');
+    if (hashIndex === -1) return;
+    const hash = location.substring(hashIndex + 1);
+    const hashEl = document.getElementById(hash);
+    if (!hashEl) return;
+    const rect = hashEl.getBoundingClientRect();
+    console.log(hash, rect);
+    scroll.scrollTo(rect.y);
+}
 
 const Home = () => {
+    useEffect(() => {
+     setTimeout(scrollToHash, 300)
+    }, [])
   return (
     <div name='home' className='pt-24 sm:mt-0 sm:pt-0 sm:h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>   
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>

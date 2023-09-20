@@ -5,10 +5,10 @@ import { Link } from 'react-scroll'
 
 function Inventions() {
   return (
-    <div id="inventions" name="inventions" className='pt-20 lg:pt-0 w-full bg-gradient-to-b from-gray-800 to-black text-white'>
+    <div name="inventions" className='pt-20 lg:pt-0 w-full bg-gradient-to-b from-gray-800 to-black text-white'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center h-full w-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Inventions</p>
+                <p id="inventions" className='text-4xl font-bold inline border-b-4 border-gray-500'>Inventions</p>
             </div>
 
             <div className='border border-white rounded p-4 mt-4'>
