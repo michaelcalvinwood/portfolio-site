@@ -26,7 +26,7 @@ const SocialLinks = () => {
         {
             id: 4,
             child:  <>Resume <BsFillPersonLinesFill size={30}/></>,
-            href: 'https://michaelcalvinwood.net/docs/Resume_2023-09-19.pdf',
+            href: 'https://michaelcalvinwood.net/docs/Resume_2023-09-20.pdf',
             style: 'rounded-br-md',
             download: true
         },
