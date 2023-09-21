@@ -2,29 +2,36 @@ import React from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill}  from 'react-icons/bs';
+import { MdOutlineFeed } from 'react-icons/md';
 
 const SocialLinks = () => {
     const links = [
         {
             id: 1,
-            child:  <>LinkedIn <FaLinkedin size={30}/></>,
-            href: 'https://www.linkedin.com/in/michael-calvin-wood/',
+            child:  <>References <MdOutlineFeed size={30}/></>,
+            href: 'https://michaelcalvinwood.net/docs/Michael_Recommendation_PYMNTS.pdf',
             style: 'rounded-tr-md'
         },
         {
             id: 2,
+            child:  <>LinkedIn <FaLinkedin size={30}/></>,
+            href: 'https://www.linkedin.com/in/michael-calvin-wood/',
+            style: ''
+        },
+        {
+            id: 3,
             child:  <>GitHub <FaGithub size={30}/></>,
             href: 'https://github.com/michaelcalvinwood',
             style: ''
         },
         {
-            id: 3,
+            id: 4,
             child:  <>Mail <HiOutlineMail size={30}/></>,
             href: 'mailto:michaelwood33311@icloud.com',
             style: ''
         },
         {
-            id: 4,
+            id: 5,
             child:  <>Resume <BsFillPersonLinesFill size={30}/></>,
             href: 'https://michaelcalvinwood.net/docs/Resume_2023-09-20.pdf',
             style: 'rounded-br-md',
