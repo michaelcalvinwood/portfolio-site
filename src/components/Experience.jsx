@@ -20,6 +20,7 @@ import PHP from '../assets/PHP.png';
 import Python from '../assets/python.png'
 import LangChain from '../assets/LangChain-nbg.png';
 import HuggingFace from '../assets/hf-logo.png';
+import C from '../assets/C.png';
 import { Link } from 'react-scroll';
 
 /*
@@ -103,6 +104,12 @@ const Experience = () => {
             src: Wordpress,
             title: 'Wordpress',
             style: 'shadow-blue-300'
+        },
+        {
+            id: 21,
+            src: C,
+            title: 'C',
+            style: 'shadow-blue-500'
         },
         {
             id: 8,
