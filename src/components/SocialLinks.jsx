@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaRegFaceGrin } from 'react-icons/fa6'
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill}  from 'react-icons/bs';
 import { MdOutlineFeed } from 'react-icons/md';
@@ -33,6 +34,12 @@ const SocialLinks = () => {
         },
         {
             id: 5,
+            child:  <>Hugging Face <FaRegFaceGrin size={30}/></>,
+            href: 'https://huggingface.co/mwood33311',
+            style: ''
+        },
+        {
+            id: 6,
             child:  <>Mail <HiOutlineMail size={30}/></>,
             href: 'mailto:michaelwood33311@icloud.com',
             style: 'rounded-br-md'
