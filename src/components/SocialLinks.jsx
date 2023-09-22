@@ -14,9 +14,10 @@ const SocialLinks = () => {
         },
         {
             id: 2,
-            child:  <>LinkedIn <FaLinkedin size={30}/></>,
-            href: 'https://www.linkedin.com/in/michael-calvin-wood/',
-            style: ''
+            child:  <>Resume <BsFillPersonLinesFill size={30}/></>,
+            href: 'https://michaelcalvinwood.net/docs/Resume_2023-09-20.pdf',
+            style: '',
+            download: true
         },
         {
             id: 3,
@@ -26,17 +27,17 @@ const SocialLinks = () => {
         },
         {
             id: 4,
-            child:  <>Mail <HiOutlineMail size={30}/></>,
-            href: 'mailto:michaelwood33311@icloud.com',
+            child:  <>LinkedIn <FaLinkedin size={30}/></>,
+            href: 'https://www.linkedin.com/in/michael-calvin-wood/',
             style: ''
         },
         {
             id: 5,
-            child:  <>Resume <BsFillPersonLinesFill size={30}/></>,
-            href: 'https://michaelcalvinwood.net/docs/Resume_2023-09-20.pdf',
-            style: 'rounded-br-md',
-            download: true
+            child:  <>Mail <HiOutlineMail size={30}/></>,
+            href: 'mailto:michaelwood33311@icloud.com',
+            style: 'rounded-br-md'
         },
+       
     ]
   return (
     <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>

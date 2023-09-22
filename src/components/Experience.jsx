@@ -18,6 +18,7 @@ import Wordpress from '../assets/Wordpress.png'
 import Scikit from '../assets/Scikit.png';
 import PHP from '../assets/PHP.png';
 import Python from '../assets/python.png'
+import LangChain from '../assets/LangChain-nbg.png';
 import { Link } from 'react-scroll';
 
 /*
@@ -128,6 +129,12 @@ const Experience = () => {
         },
         {
             id: 13,
+            src: LangChain,
+            title: 'LangChain',
+            style: 'shadow-red-600'
+        },
+        {
+            id: 19,
             src: Ionic,
             title: 'Ionic Framework',
             style: 'shadow-sky-600'
