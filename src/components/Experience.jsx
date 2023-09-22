@@ -22,6 +22,7 @@ import LangChain from '../assets/LangChain-nbg.png';
 import HuggingFace from '../assets/hf-logo.png';
 import C from '../assets/C.png';
 import { Link } from 'react-scroll';
+import Streamlit from '../assets/Streamlit.png';
 
 /*
  * To add: Tailwind Colors: https://tailwindcolor.com/
@@ -116,6 +117,12 @@ const Experience = () => {
             src: Tensorflow,
             title: 'Tensorflow',
             style: 'shadow-orange-400'
+        },
+        {
+            id: 22,
+            src: Streamlit,
+            title: 'Streamlit',
+            style: 'shadow-red-500'
         },
         {
             id: 9,
