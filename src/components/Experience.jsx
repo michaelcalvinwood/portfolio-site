@@ -23,6 +23,7 @@ import HuggingFace from '../assets/hf-logo.png';
 import C from '../assets/C.png';
 import { Link } from 'react-scroll';
 import Streamlit from '../assets/Streamlit.png';
+import MongoDB from '../assets/MongoDB.png';
 
 /*
  * To add: Tailwind Colors: https://tailwindcolor.com/
@@ -111,6 +112,12 @@ const Experience = () => {
             src: C,
             title: 'C',
             style: 'shadow-blue-500'
+        },
+        {
+            id: 23,
+            src: MongoDB,
+            title: 'MongoDB',
+            style: 'shadow-lime-300'
         },
         {
             id: 8,

@@ -39,6 +39,12 @@ const Certficates = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCode
             name: "Natural Language Processing with Python",
             descr: 'Natural Language Processing refresher with real-world tips and tricks for SpaCy, NLTK, and Keras. Keras focus on Deep Learning LSTMs — including building an LSTM-based, text generating chatbot.'
         },
+        {
+            id: '20165458f4c772d00929e4a7f1d4f338',
+            src: NLPWithPython,
+            name: "NextJs & OpenAI/GPT: Next-Generation NextJs & AI Apps",
+            descr: 'NextJs 13 was a major paradigm shift. The course covered the latest changes in NextJs development with a focus on developing innovative backend libraries for OpenAI/GPT integration.'
+        },
         
     ]
 
@@ -46,7 +52,7 @@ const Certficates = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCode
     <div id="certificates" name='certficates' className='pt-20 md:pt-24 bg-gradient-to-b from-black to-gray-800 w-full text-white '>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Certificates</p>
+                <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Continuing Education</p>
                 <p className='pt-6'>AI is a constantly changing field. After all, less than five years ago RNNs were all the rage. Yet, now, transformers are the reigning champions. It is imperative to stay up to date with the latest models and pipelines. I also engage in continual learning to master models and aspects of programming languages that I have not yet needed to use so that I am instantly ready to employ them when they're appropriate for solving a newly encountered problem.</p>
                 
             </div>
