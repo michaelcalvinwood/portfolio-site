@@ -10,6 +10,7 @@ import SocialLinks from "./components/SocialLinks";
 import ModalDemo from "./components/ModalDemo";
 import ModalCode from "./components/ModalCode";
 import Inventions from "./components/Inventions";
+import Certficates from "./components/Certificates";
 
 function App() {
   const [useModal, setUseModal] = useState(false);
@@ -28,6 +29,7 @@ function App() {
         <Inventions />
         <Experience />
         <Contact setUseModal={setUseModal}/>
+        <Certficates />
         <SocialLinks />
         <Modal useModal={useModal} setUseModal={setUseModal} />
       </div>} 
