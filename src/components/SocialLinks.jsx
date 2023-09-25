@@ -40,7 +40,7 @@ const SocialLinks = () => {
         },
         {
             id: 6,
-            child:  <>Mail <HiOutlineMail size={30}/></>,
+            child:  <>Contact <HiOutlineMail size={30}/></>,
             href: 'mailto:michaelwood33311@icloud.com',
             style: 'rounded-br-md'
         },

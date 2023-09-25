@@ -31,7 +31,7 @@ const Home = () => {
                     Full&#8209;Stack Developer
                 </h2>
                 <p className='text-gray-500 py-4 pr-8'>
-                    I have over 30 years of experience building and designing software, hardware, servers, networks, and more. Currently, I love creating AI-driven, full-stack webapps that also run natively on iOS and Android. My primary tech stack includes: Nodejs, React, Redux, Socket.io, NextJs, Vite, PHP, Python, SQL, MongoDB, Vector Databases (e.g. Qdrant), Natural Language Processing (NLP), Machine Learning (ML), WordPress, Apache, NGINX, Javascript, HTML, CSS, SASS, Ionic, TailWind, Bootstrap, and Chakra-UI. 
+                    I have over 30 years of experience building and designing software, hardware, servers, networks, and more. Currently, I love creating AI-driven, full-stack webapps that also run natively on iOS and Android. My primary tech stack includes: Tensorflow, Keras, Scikit Learn, Nodejs, React, Redux, Socket.io, NextJs, Vite, PHP, Python, SQL, MongoDB, Vector Databases (e.g. Qdrant), Natural Language Processing (NLP) including Spacy and NLTK, WordPress, Apache, NGINX, Javascript, HTML, CSS, SASS, Ionic, TailWind, Bootstrap, and Chakra-UI. 
                 </p>
                 <div>
                     <Link to={'AIportfolio'} smooth={true} duration={500}>

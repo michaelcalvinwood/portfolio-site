@@ -9,6 +9,7 @@ import vectraDB from '../assets/portfolio/vectraDB.png';
 import NLPWithPython from '../assets/certificates/Certificate-JPG-NLP-Natural-Language-Processing-with-Python.jpg';
 import machineLearning from '../assets/portfolio/machineLearning.png';
 import practicalDeepLearning from '../assets/certificates/Certificate-JPG-Practical_Deep_Learning_with_Tensorflow_2x_and_Keras.jpg';
+import nextJsOpenAIBlog from '../assets/certificates/Certficiate-JPG-NextJS-OpenAI-GPT.jpg'
 import { Link } from 'react-scroll';
 
 const Certficates = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCodeInfo}) => {
@@ -41,7 +42,7 @@ const Certficates = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCode
         },
         {
             id: '20165458f4c772d00929e4a7f1d4f338',
-            src: NLPWithPython,
+            src: nextJsOpenAIBlog,
             name: "NextJs & OpenAI/GPT: Next-Generation NextJs & AI Apps",
             descr: 'NextJs 13 was a major paradigm shift. The course covered the latest changes in NextJs development with a focus on developing innovative backend libraries for OpenAI/GPT integration.'
         },
