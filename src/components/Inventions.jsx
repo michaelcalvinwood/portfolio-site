@@ -65,6 +65,11 @@ function Inventions() {
               </ul>
             </div>
    
+            <div className='border border-white rounded p-4 mt-4'>
+              <h2 className='text-3xl text-center'>Real-Time Measurement of Respiration using Heart Rate Variability</h2>
+              <div className='text-center mb-2'>Sold to Respironics</div>
+              <p className='text-xl'>Created a mathematical method to convert variations in heart rate into a real-time measurement of respiration.The method was incorporated into a medical biofeedback device that proved successful in multiple clinical trials. The device successfully attenuated <a href='https://link.springer.com/article/10.1007/s10484-007-9046-6' target="_blank" style={{textDecoration: "underline"}}>"anxiety disorders,"</a> <a href='https://link.springer.com/article/10.1007/s10484-015-9293-x' target="_blank" style={{textDecoration: "underline"}}>"reduced stress, anxiety and depressive symptoms,"</a> and <a href='https://meridian.allenpress.com/biofeedback/article-abstract/41/3/131/113409/Heart-Rate-Variability-and-Posttraumatic-Stress' target="_blank" style={{textDecoration: "underline"}}>"improving physiological and psychological health for individuals with PTSD."</a> The <a href='https://michaelcalvinwood.net/docs/US8938288.pdf' target='_blank' style={{textDecoration: "underline"}}>patent</a> was sold to Respironics.</p>
+            </div>
         </div>
     </div>
   )
