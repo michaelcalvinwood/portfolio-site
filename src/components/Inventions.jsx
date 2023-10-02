@@ -70,6 +70,12 @@ function Inventions() {
               <div className='text-center mb-2'>Sold to Respironics</div>
               <p className='text-xl'>Created a mathematical method to convert variations in heart rate into a real-time measurement of respiration.The method was incorporated into a medical biofeedback device that proved successful in multiple clinical trials. The device successfully attenuated <a href='https://link.springer.com/article/10.1007/s10484-007-9046-6' target="_blank" style={{textDecoration: "underline"}}>"anxiety disorders,"</a> <a href='https://link.springer.com/article/10.1007/s10484-015-9293-x' target="_blank" style={{textDecoration: "underline"}}>"reduced stress, anxiety and depressive symptoms,"</a> and <a href='https://meridian.allenpress.com/biofeedback/article-abstract/41/3/131/113409/Heart-Rate-Variability-and-Posttraumatic-Stress' target="_blank" style={{textDecoration: "underline"}}>"improving physiological and psychological health for individuals with PTSD."</a> The <a href='https://michaelcalvinwood.net/docs/US8938288.pdf' target='_blank' style={{textDecoration: "underline"}}>patent</a> was sold to Respironics.</p>
             </div>
+
+            <div className='border border-white rounded p-4 mt-4'>
+              <h2 className='text-3xl text-center'>REDOC-II</h2>
+              <div className='text-center mb-2'>Strongest Block Cipher</div>
+              <p className='text-xl'>Created <a href="https://en.wikipedia.org/wiki/REDOC" target="_blank" style={{textDecoration: "underline"}}>REDOC-II</a> and co-authored a <a href='https://www.semanticscholar.org/paper/The-REDOC-II-Cryptosystem-Cusick-Wood/d2aea0c4a4c40f0d4bceed115576a99382d4a8d3' target="_blank" style={{textDecoration: "underline"}}>published paper</a> with Dr. Thomas Cusick (PhD, Cambridge University, Cryptography). REDOC-II is <a href="https://link.springer.com/chapter/10.1007/3-540-46766-1_11" target="_blank" style={{textDecoration: "underline"}}>the strongest block cipher</a>. The REDOC-II <a href="https://michaelcalvinwood.net/docs/US5003596.pdf" target="_blank" style={{textDecoration: "underline"}}>patent</a> was sold to Libera Inc.</p>
+            </div>
         </div>
     </div>
   )
