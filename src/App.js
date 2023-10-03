@@ -29,7 +29,7 @@ function App() {
         <Inventions />
         <Experience />
         <Contact setUseModal={setUseModal}/>
-        <Certficates />
+        {/* <Certficates /> */}
         <SocialLinks />
         <Modal useModal={useModal} setUseModal={setUseModal} />
       </div>} 

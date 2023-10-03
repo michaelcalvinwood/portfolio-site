@@ -35,10 +35,7 @@ const NavBar = () => {
             id: 7,
             link: 'contact'
         },
-        {
-            id: 8,
-            link: 'certificates'
-        },
+       
     ]
   return (
     <div className='px-4 flex justify-between items-center w-full h-20 text-white bg-black fixed top-0 z-50'>
