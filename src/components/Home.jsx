@@ -25,13 +25,21 @@ const Home = () => {
   return (
     <div name='home' className='pt-24 sm:mt-0 sm:pt-0 sm:h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>   
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
-            <div className='flex flex-col justify-center h-full '>
+            <div className='flex flex-col justify-center h-full ml-8'>
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'>
                     AI Engineer &
                     Full&#8209;Stack Developer
                 </h2>
                 <p className='text-gray-500 py-4 pr-8'>
-                    I have over 30 years of experience building and designing software, hardware, servers, networks, and more. Currently, I love creating AI-driven, full-stack webapps that also run natively on iOS and Android. My primary tech stack includes: Tensorflow, Keras, Scikit Learn, Nodejs, React, Redux, Socket.io, NextJs, Vite, PHP, Python, SQL, MongoDB, Vector Databases (e.g. Qdrant), Natural Language Processing (NLP) including Spacy and NLTK, WordPress, Apache, NGINX, Javascript, HTML, CSS, SASS, Ionic, TailWind, Bootstrap, and Chakra-UI. 
+                    I have over 30 years of experience building and designing software, hardware, servers, and networks. Currently, I love creating AI-driven, full-stack webapps that also run natively on iOS and Android.
+                </p> 
+                <h3 className='text-lg text-gray-500 text-center'>WebDev Stack</h3>    
+                <p className='text-gray-500 py-4 pr-8'>    
+                    Nodejs, React, Redux, Socket.io, NextJs, Vite, PHP, Python, Flask, Streamlit, SQL, Redis, MongoDB, WordPress, Apache, NGINX, Javascript, HTML, CSS, SASS, Ionic, TailWind, Bootstrap, and Chakra-UI. 
+                </p>
+                <h3 className='text-lg text-gray-500 text-center'>AI Stack</h3>    
+                <p className='text-gray-500 py-4 pr-8'>
+                TensorFlow 2, SciKit Learn, Flan-T5, Bert, GPT, OpenAI, Spark NLP, SpaCy, Hugging Face, Stanford NLP, Allen NLP, NLTK, Qdrant, Pinecone.
                 </p>
                 <div>
                     <Link to={'AIportfolio'} smooth={true} duration={500}>

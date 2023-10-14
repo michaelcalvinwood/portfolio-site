@@ -16,7 +16,7 @@ const About = () => {
                 
             <ul className='list-disc list-inside'>
                 <li className='text-xl mx-1'>I'm proficient in a variety of programming paradigms and languages &#8212; including the latest AI technologies.</li>
-                <li className='text-xl mx-1'>I'm well-versed in the leading NLP libraries, including: Spark NLP, SpaCy, Hugging Face, nltk, Stanford Core NLP and Allen NLP.</li>
+                <li className='text-xl mx-1'>I'm well-versed in the leading NLP libraries: Spark NLP, SpaCy, Hugging Face, nltk, Stanford Core NLP and Allen NLP.</li>
                 <li className='text-xl '>I'm equally comfortable with a variety of databases such as SQL, MongoDb, Redis, and even newer AI vector databases such as Qdrant.</li>
                 <li className='text-xl '>I'm equally comfortable with frontend and backend development.</li>
                 <li className='text-xl '>I'm proficient in developing real-time collaboration apps using Socket.IO and Redis for horizontal scaling.</li>
