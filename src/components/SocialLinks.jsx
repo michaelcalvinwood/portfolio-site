@@ -1,9 +1,10 @@
 import React from 'react'
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaMedium } from 'react-icons/fa';
 import { FaRegFaceGrin } from 'react-icons/fa6'
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill}  from 'react-icons/bs';
 import { MdOutlineFeed } from 'react-icons/md';
+
 
 const SocialLinks = () => {
     const links = [
@@ -16,7 +17,7 @@ const SocialLinks = () => {
         {
             id: 2,
             child:  <>Resume <BsFillPersonLinesFill size={30}/></>,
-            href: 'https://michaelcalvinwood.net/docs/Resume_2023-09-20.pdf',
+            href: 'https://michaelcalvinwood.net/docs/resume.pdf',
             style: '',
             download: true
         },
@@ -28,18 +29,24 @@ const SocialLinks = () => {
         },
         {
             id: 4,
+            child:  <>Medium <FaMedium size={30}/></>,
+            href: 'https://medium.com/@michaelwood33311',
+            style: ''
+        },
+        {
+            id: 5,
             child:  <>LinkedIn <FaLinkedin size={30}/></>,
             href: 'https://www.linkedin.com/in/michael-calvin-wood/',
             style: ''
         },
         {
-            id: 5,
+            id: 6,
             child:  <>Hugging Face <FaRegFaceGrin size={30}/></>,
             href: 'https://huggingface.co/mwood33311',
             style: ''
         },
         {
-            id: 6,
+            id: 7,
             child:  <>Contact <HiOutlineMail size={30}/></>,
             href: 'mailto:michaelwood33311@icloud.com',
             style: 'rounded-br-md'
