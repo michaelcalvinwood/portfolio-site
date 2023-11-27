@@ -37,7 +37,7 @@ const Home = () => {
                 <p className='text-gray-500 py-4 pr-8'>    
                     Nodejs, React, Redux, Socket.io, NextJs, Vite, PHP, Python, Flask, Streamlit, SQL, Redis, MongoDB, WordPress, Apache, NGINX, Javascript, HTML, CSS, SASS, Ionic, TailWind, Bootstrap, and Chakra-UI. 
                 </p>
-                <h3 className='text-lg text-gray-500 text-center'>AI Frameworks</h3>    
+                <h3 className='text-lg text-gray-500 text-center'>AI, ML & NLP Frameworks</h3>    
                 <p className='text-gray-500 py-4 pr-8'>
                 TensorFlow, Keras, SciKit Learn, Flan-T5, Bert, GPT, OpenAI, Spark NLP, SpaCy, Hugging Face Transformers, Stanford NLP, Allen NLP, NLTK, Qdrant, Pinecone.
                 </p>

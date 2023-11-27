@@ -121,11 +121,11 @@ const Portfolio = ({setUseModal, setModalDemoInfo, modalCodeInfo, setModalCodeIn
                         description: `Production Version used at PYMNTS.`,
                         link: 'https://michaelcalvinwood.net/videos/Contributor-Pages.mp4'
                     },
-                    {
-                        id: '631b7fb00cc42056919efe4ec138ffab',
-                        description: `Example Page`,
-                        link: 'https://www.pymnts.com/contributor/Amias_Gerety'
-                    },
+                    // {
+                    //     id: '631b7fb00cc42056919efe4ec138ffab',
+                    //     description: `Example Page`,
+                    //     link: 'https://www.pymnts.com/contributor/Amias_Gerety'
+                    // },
 
                 ]
             },
