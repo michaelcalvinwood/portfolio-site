@@ -190,7 +190,7 @@ const Experience = () => {
                 <p className='pt-6'>For a full list, see:</p> 
                 <ul className='px-4'>
                     <li><Link to='inventions' smooth={true} duration={500} style={{textDecoration: 'underline', cursor: 'pointer'}}>Inventions</Link></li>
-                    <li><a href="https://github.com/michaelcalvinwood" target="_blank" style={{textDecoration: 'underline'}}>150 GitHub repositories</a>.</li>
+                    <li><a href="https://github.com/michaelcalvinwood" target="_blank" style={{textDecoration: 'underline'}}>180 GitHub repositories</a>.</li>
                 </ul>
             </div>
 
