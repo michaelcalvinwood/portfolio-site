@@ -13,8 +13,9 @@ function Inventions() {
 
             <div className='border border-white rounded p-4 mt-4'>
               <h2 className='text-3xl text-center'>Acurai</h2>
-              <div className='text-center mb-2'>Patents Pending</div>
-              <p className='text-xl'>Acurai solves the top five issues with generative AI. The top five issues solved are:</p>
+              <div className='text-center mb-2'>Patent-Pending Solution to AI Hallucinations and Inaccuracies</div>
+              <img src='https://fusaion.nyc3.digitaloceanspaces.com/accounts/10aa6d80-d823-4d49-ad76-bb9a2fd04180/media/images/90a489e6-561e-45c5-b2e0-2e303f6b9ebb.png' style={{width: '50%', display: 'block', margin: 'auto'}}/>
+              <p className='text-xl mt-4'>Acurai provides accurate, reliable LLM responses by fully resolving the following issues:</p>
               <div className='flex flex-col justify-center'>
                 
                 <div className='flex p-4 w-full justify-start'>
