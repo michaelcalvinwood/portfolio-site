@@ -33,14 +33,15 @@ const Home = () => {
                 <p className='text-gray-500 py-4 pr-8'>
                     I have over 30 years of experience building and designing software, hardware, servers, and networks. Currently, I love creating AI-driven, full-stack webapps that also run natively on iOS and Android.
                 </p> 
+                <h3 className='text-lg text-gray-500 text-center'>AI, ML, & NLP</h3>    
+                <p className='text-gray-500 py-4 pr-8'>
+                TensorFlow, Keras, SciKit Learn, Flan-T5, Bert, GPT, OpenAI, Spark NLP, SpaCy, Hugging Face Transformers, Stanford NLP, Allen NLP, NLTK, Qdrant, Pinecone.
+                </p>
                 <h3 className='text-lg text-gray-500 text-center'>WebDev Stack</h3>    
                 <p className='text-gray-500 py-4 pr-8'>    
                     Nodejs, React, Redux, Socket.io, NextJs, Vite, PHP, Python, Flask, Streamlit, SQL, Redis, MongoDB, WordPress, Apache, NGINX, Javascript, HTML, CSS, SASS, Ionic, TailWind, Bootstrap, and Chakra-UI. 
                 </p>
-                <h3 className='text-lg text-gray-500 text-center'>AI, ML & NLP Frameworks</h3>    
-                <p className='text-gray-500 py-4 pr-8'>
-                TensorFlow, Keras, SciKit Learn, Flan-T5, Bert, GPT, OpenAI, Spark NLP, SpaCy, Hugging Face Transformers, Stanford NLP, Allen NLP, NLTK, Qdrant, Pinecone.
-                </p>
+            
                 <div>
                     <Link to={'AIportfolio'} smooth={true} duration={500}>
                         <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
