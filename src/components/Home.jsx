@@ -23,10 +23,10 @@ const Home = () => {
      setTimeout(scrollToHash, 300)
     }, [])
   return (
-    <div name='home' className='pt-24 sm:mt-0 sm:pt-0 sm:h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>   
-        <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
+    <div name='home' className='pt-24 sm:mt-0 sm:pt-0 w-full bg-gradient-to-b from-black via-black to-gray-800 md:h-screen'>   
+        <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center px-4 md:flex-row mt-20' >
             <div className='flex flex-col justify-center w-auto'>
-                <h2 className='text-4xl sm:text-7xl font-bold text-white'>
+                <h2 className='text-4xl sm:text-4xl font-bold text-white'>
                     AI Engineer &
                     Full&#8209;Stack Developer
                 </h2>
@@ -54,8 +54,20 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
-            <div>
-                <img src={HeroImage} alt="my profile" className='rounded-2xl mx-auto w-2/3'/>
+            <div className='flex flex-col justify-center'>
+                <img src={HeroImage} alt="my profile" className='rounded-2xl mx-auto w-1/2'/>
+                <div className='mt-4'>
+                    <h3 className='text-lg text-gray-500 text-center'>What is an AI Developer?</h3>    
+                    <p className='text-gray-500 pt-4 pb-1 pr-8'>
+                        Merely using an API to connect to ChatGPT does not make someone an AI developer. Nor does implementing traditional Retrieval Augmented Generation (RAG). These skills are insufficient for building accurate, reliable, scalable AI, ML, and NLP solutions.
+                    </p>
+                    <p className='text-gray-500 py-1 pr-8'>
+                        AI developers use off-the-shelf LLMs as just one component of many when building production solutions. AI developers create new AI/ML models from scratch using frameworks such as Tensorflow and Pytorch. They also often fine-tune "off-the-shelf" LLMs, CNNs, etc. to create customized versions that work in tandem with their newly created AI/ML models. AI developers further integrate state-of-the-art natural language processing methods as well.
+                    </p>
+                    <p className='text-gray-500 py-1 pr-8'>
+                        Most production use cases require a combination of newly created AI/ML models, fine-tuned off-the-shelf models, natural language processing techniques, custom vector database designs, and more — all in conjunction with senior full-stack development.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
