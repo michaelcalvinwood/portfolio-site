@@ -31,7 +31,7 @@ const Home = () => {
                     Full&#8209;Stack Developer
                 </h2>
                 <p className='text-gray-500 py-4 pr-8'>
-                    I have over 30 years of experience building and designing software, hardware, servers, and networks. Currently, I love creating AI-driven, full-stack webapps that also run natively on iOS and Android.
+                    Over 30 years of experience building and designing software, hardware, servers, and networks. I especially love creating AI-driven, full-stack webapps that also run natively on iOS and Android.
                 </p> 
                 <h3 className='text-lg text-gray-500 text-center'>AI, ML, & NLP</h3>    
                 <p className='text-gray-500 py-4 pr-8'>
