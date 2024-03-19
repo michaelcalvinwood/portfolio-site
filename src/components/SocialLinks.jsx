@@ -48,7 +48,8 @@ const SocialLinks = () => {
         {
             id: 7,
             child:  <>Contact <HiOutlineMail size={30}/></>,
-            href: 'mailto:michaelwood33311@icloud.com',
+            // href: 'mailto:michaelwood33311@icloud.com',
+            href: "https://www.michaelcalvinwood.net/#Contact",
             style: 'rounded-br-md'
         },
        
