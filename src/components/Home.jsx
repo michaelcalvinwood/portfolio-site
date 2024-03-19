@@ -42,7 +42,7 @@ const Home = () => {
                     Nodejs, React, Redux, Socket.io, NextJs, Vite, PHP, Python, Flask, Streamlit, SQL, Redis, MongoDB, WordPress, Apache, NGINX, Javascript, HTML, CSS, SASS, Ionic, TailWind, Bootstrap, and Chakra-UI. 
                 </p>
             
-                <div>
+                <div className='hidden md:block'>
                     <Link to={'AIportfolio'} smooth={true} duration={500}>
                         <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
                 
