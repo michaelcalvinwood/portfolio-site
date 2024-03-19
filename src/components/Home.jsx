@@ -65,7 +65,6 @@ const Home = () => {
                         <li className='text-gray-500 underline my-2'><a href="https://www.michaelcalvinwood.net/docs/System-and-Method-of-Accurate-AI--Full-Public.pdf" target="_blank">Method for Eliminating Hallucinations</a></li>
                         <li className='text-gray-500 underline'><a href="https://www.michaelcalvinwood.net/docs/Relevant-and-Accurate-AI--Public.pdf" target='_blank'>Method for Accurate and Relevant AI Responses</a></li>
                     </ul>
-                   
                 </div>
             </div>
         </div>
