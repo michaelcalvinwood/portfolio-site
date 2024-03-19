@@ -57,7 +57,7 @@ const Home = () => {
             <div className='flex flex-col justify-center'>
                 <img src={HeroImage} alt="my profile" className='rounded-2xl mx-auto w-1/2'/>
                 <div className='mt-4'>
-                    <h3 className='text-lg text-gray-500 text-center'>Eliminate Chatbot Hallucinations — Yes, Eliminate Them</h3>    
+                    <h3 className='text-lg text-white text-xl text-center font-bold'>Eliminate Chatbot Hallucinations — Yes, Eliminate Them</h3>    
                     <p className='text-gray-500 pt-4 pb-1 pr-8'>What if chatbot hallucinations only appear to be unfixable because the industry has been looking in the wrong place? The documents below disclose a method for finally eliminating hallucinations. Eliminating chatbot hallucinations? Yes, eliminating them.</p>
                     <p className='text-gray-500 py-1 pr-8'>Importantly, you can test the model explained in the documents using ChatGPT 3.5 Turbo. Every statement regarding the model’s behavior (at the end of the second document) is easily verifiable. You can see for yourself that chatbot hallucinations can finally be eliminated.
                     </p>
