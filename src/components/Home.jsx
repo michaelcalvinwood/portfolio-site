@@ -43,15 +43,16 @@ const Home = () => {
                 </p>
             
                 <div className='hidden md:block'>
-                    <Link to={'AIportfolio'} smooth={true} duration={500}>
+                    {/* <Link to={'AIportfolio'} smooth={true} duration={500}> */}
+                    <a href='https://github.com/michaelcalvinwood' target="_blank">
                         <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
                 
-                            AI Portfolio
+                            Repositories
                             <span className='group-hover:rotate-90 duration-300' >
                                 <MdOutlineKeyboardArrowRight size={20} className='ml-2'/>
                             </span>
                         </button>
-                    </Link>
+                    </a>
                 </div>
             </div>
             <div className='flex flex-col justify-center'>

@@ -13,27 +13,13 @@ function Inventions() {
 
             <div className='border border-white rounded p-4 mt-4'>
               <h2 className='text-3xl text-center'>Acurai</h2>
-              <div className='text-center mb-2'>Patent-Pending Solution to AI Hallucinations and Inaccuracies</div>
+              <div className='text-center mb-2'>Hallucination-Free AI</div>
               <img src='https://fusaion.nyc3.digitaloceanspaces.com/accounts/10aa6d80-d823-4d49-ad76-bb9a2fd04180/media/images/90a489e6-561e-45c5-b2e0-2e303f6b9ebb.png' style={{width: '50%', display: 'block', margin: 'auto'}}/>
-              <p className='text-xl mt-4'>Acurai provides accurate, reliable LLM responses by fully resolving the following issues:</p>
-              <div className='flex flex-col justify-center'>
-                
-                <div className='flex p-4 w-full justify-start'>
-                  <div style={{width: '16rem'}}><b>Hallucinations</b></div><div>Making up false information out of thin air.</div>
-                </div>
-                <div className='flex justify-start p-4 '>
-                  <div style={{width: '16rem'}}><b>Misquotes</b></div><div>Quotes get altered during the text generation process, making them unusable.</div>
-                </div>
-                <div className='flex justify-start p-4 '>
-                  <div style={{width: '16rem'}}><b>Time Distortion</b></div><div>Writing about past events as if they are still to come in the future.</div>
-                </div>
-                <div className='flex justify-start p-4 '>
-                  <div style={{width: '16rem'}}><b>Extraneous Data</b></div><div>Focusing on irrelevant parts of input sources.</div>
-                </div>
-                <div className='flex justify-start p-4 '>
-                  <div style={{width: '16rem'}}><b>Input Structure Constraints</b></div><div>The output is constrained by the structure of the input.</div>
-                </div>
-              </div>
+              <p className='text-xl mt-4'>Acurai is the world's first AI that provides relevant, hallucination-free responses. See public disclosures below:</p>
+              <ul className='ml-8'>
+                        <li className='underline my-2'><a href="https://www.michaelcalvinwood.net/docs/System-and-Method-of-Accurate-AI--Full-Public.pdf" target="_blank">Method for Eliminating Hallucinations</a></li>
+                        <li className='underline'><a href="https://www.michaelcalvinwood.net/docs/Relevant-and-Accurate-AI--Public.pdf" target='_blank'>Method for Accurate and Relevant AI Responses</a></li>
+                    </ul>
             </div>
             
 

@@ -187,14 +187,14 @@ const Experience = () => {
             <div>
                 <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Experience</p>
                  
-                <p className='pt-6'>For a full list, see:</p> 
+                {/* <p className='pt-6'>For a full list, see:</p> 
                 <ul className='px-4'>
                     <li><Link to='inventions' smooth={true} duration={500} style={{textDecoration: 'underline', cursor: 'pointer'}}>Inventions</Link></li>
                     <li><a href="https://github.com/michaelcalvinwood" target="_blank" style={{textDecoration: 'underline'}}>180 GitHub repositories</a>.</li>
-                </ul>
+                </ul> */}
             </div>
 
-            <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-0 sm:px-12'>
+            <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-12 px-0 sm:px-12'>
                { techs.map(({id, src, title, style}) => {
                  return <div key={id} className={'shadow-md hover:scale-105 duration-500 py-2 rounded-lg' + ' ' + style} >
                     <img src={src} alt="" className='w-20 mx-auto'/>
