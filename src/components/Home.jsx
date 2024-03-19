@@ -57,16 +57,15 @@ const Home = () => {
             <div className='flex flex-col justify-center'>
                 <img src={HeroImage} alt="my profile" className='rounded-2xl mx-auto w-1/2'/>
                 <div className='mt-4'>
-                    <h3 className='text-lg text-gray-500 text-center'>What is an AI Developer?</h3>    
-                    <p className='text-gray-500 pt-4 pb-1 pr-8'>
-                        Merely using an API to connect to ChatGPT does not make someone an AI developer. Nor does implementing traditional Retrieval Augmented Generation (RAG). These skills are insufficient for building accurate, reliable, scalable AI, ML, and NLP solutions.
+                    <h3 className='text-lg text-gray-500 text-center'>Eliminate Chatbot Hallucinations — Yes, Eliminate Them</h3>    
+                    <p className='text-gray-500 pt-4 pb-1 pr-8'>What if chatbot hallucinations only appear to be unfixable because the industry has been looking in the wrong place? The documents below disclose a method for finally eliminating hallucinations. Eliminating chatbot hallucinations? Yes, eliminating them.</p>
+                    <p className='text-gray-500 py-1 pr-8'>Importantly, you can test the model explained in the documents using ChatGPT 3.5 Turbo. Every statement regarding the model’s behavior (at the end of the second document) is easily verifiable. You can see for yourself that chatbot hallucinations can finally be eliminated.
                     </p>
-                    <p className='text-gray-500 py-1 pr-8'>
-                        AI developers use off-the-shelf LLMs as just one component of many when building production solutions. AI developers create new AI/ML models from scratch using frameworks such as Tensorflow and Pytorch. They also often fine-tune "off-the-shelf" LLMs, CNNs, etc. to create customized versions that work in tandem with their newly created AI/ML models. AI developers further integrate state-of-the-art natural language processing methods as well.
-                    </p>
-                    <p className='text-gray-500 py-1 pr-8'>
-                        Most production use cases require a combination of newly created AI/ML models, fine-tuned off-the-shelf models, natural language processing techniques, custom vector database designs, and more — all in conjunction with senior full-stack development.
-                    </p>
+                    <ul className='ml-8'>
+                        <li className='text-gray-500 underline my-2'><a href="https://www.michaelcalvinwood.net/docs/System-and-Method-of-Accurate-AI--Full-Public.pdf" target="_blank">Method for Eliminating Hallucinations</a></li>
+                        <li className='text-gray-500 underline'><a href="https://www.michaelcalvinwood.net/docs/Relevant-and-Accurate-AI--Public.pdf" target='_blank'>Method for Accurate and Relevant AI Responses</a></li>
+                    </ul>
+                   
                 </div>
             </div>
         </div>
