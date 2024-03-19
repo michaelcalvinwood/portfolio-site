@@ -25,7 +25,7 @@ function App() {
         <NavBar />
         <Home />
         <About />
-        <Portfolio setUseModal={setUseModal} setModalDemoInfo={setModalDemoInfo} modalCodeInfo={modalCodeInfo} setModalCodeInfo={setModalCodeInfo} />
+        {/* <Portfolio setUseModal={setUseModal} setModalDemoInfo={setModalDemoInfo} modalCodeInfo={modalCodeInfo} setModalCodeInfo={setModalCodeInfo} /> */}
         <Inventions />
         <Experience />
         <Contact setUseModal={setUseModal}/>
