@@ -60,7 +60,7 @@ const Home = () => {
                 <div className='mt-4'>
                     <h3 className='text-lg text-white text-xl text-center font-bold'>Eliminate Chatbot Hallucinations — Yes, Eliminate Them</h3>    
                     <p className='text-gray-500 pt-4 pb-1 pr-8'>Chatbot hallucinations only appear to be unfixable because the industry has been looking in the wrong place. The documents below disclose a method for finally eliminating hallucinations. Yes, <em>eliminating</em> them.</p>
-                    <p className='text-gray-500 py-1 pr-8'>Importantly, you can test the model explained in the documents using ChatGPT 3.5 Turbo. Every statement regarding the model’s behavior is easily verifiable. You can see for yourself that chatbot hallucinations can finally be eliminated.
+                    <p className='text-gray-500 py-1 pr-8'>Importantly, the disclosed method is fully testable using ChatGPT 3.5 Turbo. In other words, the method is easily verifiable.
                     </p>
                     <ul className='ml-8'>
                         <li className='text-gray-500 underline my-2'><a href="https://www.michaelcalvinwood.net/docs/System-and-Method-of-Accurate-AI--Full-Public.pdf" target="_blank">Method for Eliminating Hallucinations</a></li>
