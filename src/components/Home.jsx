@@ -60,12 +60,7 @@ const Home = () => {
                 <div className='mt-4'>
                     <h3 className='text-lg text-white text-xl text-center font-bold'>Eliminate Chatbot Hallucinations — Yes, Eliminate Them</h3>    
                     <p className='text-gray-500 pt-4 pb-1 pr-8'>Chatbot hallucinations only appear to be unfixable because the industry has been looking in the wrong place. The documents below disclose a method for finally eliminating hallucinations. Yes, <em>eliminating</em> them.</p>
-                    <p className='text-gray-500 py-1 pr-8'>Importantly, the disclosed method is fully testable using ChatGPT 3.5 Turbo. In other words, the method is easily verifiable.
-                    </p>
-                    <ul className='ml-8'>
-                        <li className='text-gray-500 underline my-2'><a href="https://www.michaelcalvinwood.net/docs/System-and-Method-of-Accurate-AI--Full-Public.pdf" target="_blank">Method for Eliminating Hallucinations</a></li>
-                        <li className='text-gray-500 underline'><a href="https://www.michaelcalvinwood.net/docs/Relevant-and-Accurate-AI--Public.pdf" target='_blank'>Method for Accurate and Relevant AI Responses</a></li>
-                    </ul>
+                    <p className='text-gray-500 py-1 pr-8'>Eliminating hallucinations is <em>essential</em> for any company building chatbots and LLM apps. You can learn how to produce 100% accurate AI responses <a href="https://medium.com/@michaelwood33311/stop-the-hype-stop-the-hallucinations-e18ed2c7b62c?sk=54fd6b7962d96e82fd765fd3daac0d6f" target="_blank" className='underline'>here</a>.</p>
                 </div>
             </div>
         </div>
