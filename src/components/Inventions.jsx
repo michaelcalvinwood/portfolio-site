@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll'
+import RAGFix from '../assets/RAGFix_branding_01.jpg';
 
 // https://www.google.com/search?q=stress+eraser+clinical+studies&oq=stress+eraser+clinical+studies&aqs=chrome..69i57j33i160j33i299.7247j0j7&sourceid=chrome&ie=UTF-8
 
@@ -12,14 +13,10 @@ function Inventions() {
             </div>
 
             <div className='border border-white rounded p-4 mt-4'>
-              <h2 className='text-3xl text-center'>Acurai</h2>
-              <div className='text-center mb-2'>Hallucination-Free AI</div>
-              <img src='https://fusaion.nyc3.digitaloceanspaces.com/accounts/10aa6d80-d823-4d49-ad76-bb9a2fd04180/media/images/90a489e6-561e-45c5-b2e0-2e303f6b9ebb.png' style={{width: '50%', display: 'block', margin: 'auto'}}/>
-              <p className='text-xl mt-4'>Acurai is the world's first AI that provides relevant, hallucination-free responses. Acurai will be released in June 2024 under the brand name RAGFix. See public disclosures below:</p>
-              <ul className='ml-8'>
-                        <li className='underline my-2'><a href="https://www.michaelcalvinwood.net/docs/System-and-Method-of-Accurate-AI--Full-Public.pdf" target="_blank">Method for Eliminating Hallucinations</a></li>
-                        <li className='underline'><a href="https://www.michaelcalvinwood.net/docs/Relevant-and-Accurate-AI--Public.pdf" target='_blank'>Method for Accurate and Relevant AI Responses</a></li>
-                    </ul>
+              <h2 className='text-3xl text-center'>RAGFix</h2>
+              <div className='text-center mb-2'>100% Accurate AI</div>
+              <img src={RAGFix} style={{width: '50%', display: 'block', margin: 'auto'}} alt='RAGFix Branding'/>
+              <p className='text-xl mt-4'><a href="https://www.ragfix.ai" class="underline" target="_blank" rel="noreferrer">RAGFix</a> is the world's first AI that provides 100% accurate, hallucination-free responses.</p>
             </div>
             
 
