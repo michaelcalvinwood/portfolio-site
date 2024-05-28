@@ -58,9 +58,9 @@ const Home = () => {
             <div className='flex flex-col justify-center'>
                 <img src={HeroImage} alt="my profile" className='rounded-2xl mx-auto w-1/2'/>
                 <div className='mt-4'>
-                    <h3 className='text-lg text-white text-xl text-center font-bold'>Eliminate Chatbot Hallucinations — Yes, Eliminate Them</h3>    
-                    <p className='text-gray-500 pt-4 pb-1 pr-8'>Chatbot hallucinations only appear to be unfixable because the industry has been looking in the wrong place. The documents below disclose a method for finally eliminating hallucinations. Yes, <em>eliminating</em> them.</p>
-                    <p className='text-gray-500 py-1 pr-8'>Eliminating hallucinations is <em>essential</em> for any company building chatbots and LLM apps. You can learn how to produce 100% accurate AI responses <a href="https://medium.com/@michaelwood33311/stop-the-hype-stop-the-hallucinations-e18ed2c7b62c?sk=54fd6b7962d96e82fd765fd3daac0d6f" target="_blank" className='underline'>here</a>.</p>
+                    <h3 className='text-lg text-white text-xl text-center font-bold'>100% Accurate AI Is Finally Here</h3>    
+                    <p className='text-gray-500 pt-4 pb-1 pr-8'>Numerous AI projects fail to be deployed due to AI hallucinations. Therefore, I created <a href="https://www.ragfix.ai" class="underline" target="_blank" rel="noreferrer">RAGFix</a> to solve this problem. With RAGFix, you can finally create chatbots that produce 100% accurate&mdash;hallucination-free&mdash; responses.</p>
+                    <p className='text-gray-500 py-1 pr-8'>RAGFix will be generally available on July 1, 2024.</p>
                 </div>
             </div>
         </div>
