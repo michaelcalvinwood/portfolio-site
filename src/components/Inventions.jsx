@@ -16,7 +16,7 @@ function Inventions() {
               <h2 className='text-3xl text-center'>RAGFix</h2>
               <div className='text-center mb-2'>100% Accurate AI</div>
               <img src={RAGFix} style={{width: '50%', display: 'block', margin: 'auto'}} alt='RAGFix Branding'/>
-              <p className='text-xl mt-4'><a href="https://www.ragfix.ai" class="underline" target="_blank" rel="noreferrer">RAGFix</a> is the world's first AI that provides 100% accurate, hallucination-free responses.</p>
+              <p className='text-xl mt-4'><a href="https://www.ragfix.ai" class="underline" target="_blank" rel="noreferrer">RAGFix</a> is the world's first AI that provides 100% accurate, hallucination-free responses. Available July 1, 2024.</p>
             </div>
             
 
