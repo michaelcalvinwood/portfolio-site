@@ -58,9 +58,9 @@ const Home = () => {
             <div className='flex flex-col justify-center'>
                 <img src={HeroImage} alt="my profile" className='rounded-2xl mx-auto w-1/2'/>
                 <div className='mt-4'>
-                    <h3 className='text-lg text-white text-xl text-center font-bold'>100% Accurate AI Is Finally Here</h3>    
-                    <p className='text-gray-500 pt-4 pb-1 pr-8'>Numerous AI projects fail to be deployed due to AI hallucinations. Therefore, I created <a href="https://www.ragfix.ai" class="underline" target="_blank" rel="noreferrer">RAGFix</a> to solve this problem. With RAGFix, you can finally create chatbots that produce 100% accurate&mdash;hallucination-free&mdash; responses.</p>
-                    <p className='text-gray-500 py-1 pr-8'>RAGFix will be generally available on July 1, 2024.</p>
+                    <h3 className='text-lg text-white text-xl text-center font-bold'>100% Accurate AI Finally Here</h3>    
+                    <p className='text-gray-500 pt-4 pb-1 pr-8'>I will be be releasing the solution to 100% accurate chatbots on July 18th.</p>
+                    <p className='text-gray-500 py-1 pr-8'><a href="https://acur.ai" target="_blank" className='underline'>Acurai</a> is the first hallucination-free AI.</p>
                 </div>
             </div>
         </div>
