@@ -60,7 +60,7 @@ const Home = () => {
                 <div className='mt-4'>
                     <h3 className='text-lg text-white text-xl text-center font-bold'>100% Accurate AI Finally Here</h3>    
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/bwdTQXaDCR8?si=pBE7p5l1UhlaId0S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <p className='text-gray-500 pt-4 pb-1 pr-8'><a href="https://acur.ai" target="_blank" className='underline'>Acurai</a> is the first hallucination-free AI.I will be be releasing the solution to 100% accurate chatbots on July 18th.</p>
+                    <p className='text-gray-500 pt-4 pb-1 pr-8'>I will be releasing the first 100% accurate, hallucination-free AI on July 18th. No kidding. No hype.</p>
                     
                 </div>
             </div>
