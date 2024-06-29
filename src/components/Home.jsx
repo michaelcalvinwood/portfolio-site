@@ -59,7 +59,7 @@ const Home = () => {
                 <img src={HeroImage} alt="my profile" className='rounded-2xl mx-auto w-1/2'/>
                 <div className='mt-4'>
                     <h3 className='text-lg text-white text-xl text-center font-bold'>100% Accurate AI Finally Here</h3>    
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cTeWTQjJC_Q?si=dqNBal-qx4cVTFzh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/aA4oXD6EmsU?si=IAZspN_rW03D2u7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <p className='text-gray-500 pt-4 pb-1 pr-8'>I will be releasing my greatest invention in July: 100% accurate AI. No kidding. No hype.</p>
                     
                 </div>
