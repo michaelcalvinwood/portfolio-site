@@ -17,7 +17,7 @@ function Inventions() {
               <div className='text-center mb-2'>100% Accurate AI</div>
               <div style={{display: 'flex', justifyContent: 'center'}}><iframe width="560" height="315" src="https://www.youtube.com/embed/ZBWoUVZuGao?si=KMrJwltnrzpejl1X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
                     
-              <p className='text-xl mt-4'><a href="https://www.ragfix.ai" class="underline" target="_blank" rel="noreferrer">Acurai</a> is the world's first AI that provides 100% accurate, hallucination-free responses. Available July 18, 2024.</p>
+              <p className='text-xl mt-4'><a href="https://www.ragfix.ai" class="underline" target="_blank" rel="noreferrer">Acurai</a> is the world's first AI that provides 100% accurate, hallucination-free responses. Available July 23, 2024.</p>
             </div>
             
 
