@@ -24,7 +24,7 @@ const About = () => {
             </ul>   
             <br />
                 
-            <p className='text-xl'>My current employment involves a combination of Nodejs, React, Redux, PHP, Python, SQL, Redis, MongoDB, LangChain, OpenAI, Flan-T5, Llama 3, Gemini Pro, Qdrant, WordPress, Javascript, HTML, CSS, Ionic, and Nextjs. I also manage all DevOps as well.
+            <p className='text-xl'>My current employment involves a combination of Nodejs, React, Redux, PHP, Python, SQL, Redis, MongoDB, LangChain, OpenAI, Flan-T5, Llama 3, Qdrant, WordPress, Javascript, HTML, CSS, Ionic, and Nextjs. I also manage all DevOps as well.
             </p>
             <br />
             <p className='text-xl'>
