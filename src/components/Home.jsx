@@ -61,7 +61,7 @@ const Home = () => {
                     <h3 className='text-lg text-white text-xl text-center font-bold'>100% Accurate AI Finally Here</h3>    
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/K4Wg6QzPfyI?si=h5z4nNIQVrxuidoH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <p className='text-gray-500 pt-4 pb-1 pr-8'>I launched an API service for Acurai, 100% accurate AI, in July 30, 2024 (<a href="https://www.ragfix.ai" style={{textDecoration: 'underline'}} target="_blank" rel="noreferrer">RAGFix</a>).</p> 
-                    <p className='text-gray-500 pt-4 pb-1 pr-8'>Acurai's foundational model has been <a href="https://medium.com/@michaelwood33311/100-accurate-ai-claimed-by-acurai-openai-and-anthropic-confirm-acurais-discoveries-98fce1ddeb5b?sk=6e93479cbad177d972bb49e48f012f7a" style={{textDecoration: 'underline'}} target="_blank" rel="noreferrer"> confirmed by OpenAI and Anthropic studies</a>.</p>
+                    <p className='text-gray-500 pt-4 pb-1 pr-8'>Acurai's foundational model has recently been <a href="https://medium.com/@michaelwood33311/100-accurate-ai-claimed-by-acurai-openai-and-anthropic-confirm-acurais-discoveries-98fce1ddeb5b?sk=6e93479cbad177d972bb49e48f012f7a" style={{textDecoration: 'underline'}} target="_blank" rel="noreferrer"> confirmed by OpenAI and Anthropic studies</a>.</p>
                     
                 </div>
             </div>
